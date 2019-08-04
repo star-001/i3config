@@ -1,0 +1,14 @@
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+Height 2160=2133
+State=AAAA/wAAAAD9AAAAAAAADwAAAAfdAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 3840=3840
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/Spark高级数据分析（第2版）.pdf
+File2[$e]=$HOME/Downloads/Spark Definitive Guide-前8章.pdf
+Name1[$e]=Spark高级数据分析（第2版）.pdf
+Name2[$e]=Spark Definitive Guide-前8章.pdf

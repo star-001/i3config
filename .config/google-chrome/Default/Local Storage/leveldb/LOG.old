@@ -1,0 +1,6 @@
+2019/08/04-17:46:48.525 5f7 Reusing MANIFEST leveldb/MANIFEST-000001
+2019/08/04-17:46:48.526 5f7 Recovering log #790
+2019/08/04-17:46:48.792 5f7 Reusing old log leveldb/000790.log 
+2019/08/04-18:06:42.665 6c4 Level-0 table #794: started
+2019/08/04-18:06:42.923 6c4 Level-0 table #794: 22996 bytes OK
+2019/08/04-18:06:43.071 6c4 Delete type=0 #790

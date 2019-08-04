@@ -1,0 +1,14 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "All-in-one, offline API documentation browser with a fast, organized, and searchable interface."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "DevDocs"
+   },
+   "appShortName": {
+      "description": "The title of the application, displayed in the web store. (short)",
+      "message": "DevDocs"
+   }
+}

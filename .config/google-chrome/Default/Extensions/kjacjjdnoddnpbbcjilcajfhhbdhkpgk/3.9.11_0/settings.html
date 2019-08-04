@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Forest Settings</title>
+    <link href="stylesheets/common.css" media="screen" rel="stylesheet" />
+    <link href="stylesheets/settings.css" media="screen" rel="stylesheet" />
+    <link href="./font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/settings.js"></script>
+</head>
+
+<body>
+    <div id="header" class="">
+        <div id="info" class="">
+            <div id="info-no-login" class="info-container info">
+                <div class="infoblock"> <img src="images/settings/empty_avatar.png" alt="Head"> </div>
+                <div class="infoblock textleft">
+                    <div id="login-link" class="buttons" data-l10n-id="settings_login_portal">登入</div>
+                    <div id="info-title"><span id="settings_login_description" data-l10n-id="settings_login_description">登入以同步瀏覽器的樹至手機app</span></div>
+                    <div id="info-subtitle"><span id="settings_no_account1" data-l10n-id="settings_no_account1">還沒有帳號嗎？你可以在 Forest app 中註冊：</span> <a id="settings_no_account_iosapp" href="https://itunes.apple.com/tw/app/forest-stay-focused-stop-phubbing/id866450515?mt=8" target="_blank" data-l10n-id="settings_no_account_iosapp">iOS</a>&nbsp; <span id="settings_no_account_or" data-l10n-id="settings_no_account_or"></span>&nbsp; <a id="settings_no_account_androidapp" href="https://play.google.com/store/apps/details?id=cc.forestapp" target="_blank" data-l10n-id="settings_no_account_androidapp">Android </a><span id="settings_no_account2" data-l10n-id="settings_no_account2"> (需付費解鎖完整版)</span></div>
+                </div>
+            </div>
+            <div id="info-has-login" class="info-container info disappear">
+                <div class="infoblock"> <img id="profile-avatar" src="images/settings/empty_avatar.png" alt="Head"> </div>
+                <div class="infoblock">
+                    <div id="profile-name"></div>
+                    <div id="profile-info"><img src="images/settings/tree_icon_healthy.png">
+                        <p id="profile-healthy">0</p><img src="images/settings/success_rate_icon.png">
+                        <p id="profile-rate">0%</p><img src="images/main/coin.png">
+                        <p id="profile-coin">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tab" class="tab">
+            <div class="tab-container">
+                <div id="tab-settings" data-l10n-id="settings_tab_settings" class="tablinks active">Setting</div>
+                <div id="tab-synclist" data-l10n-id="settings_tab_synclist" class="tablinks">History</div>
+                <hr /> </div>
+            <div id="tab-info" class="tabright disappear">
+                <div id="tab-info-name"></div><img id="tab-info-avatar" src="images/settings/empty_avatar.png"> </div>
+            <div id="tab-logout" data-l10n-id="settings_tab_logout" class="tablinks tabright disappear">Log out</div>
+        </div>
+        <div id="tab-space" class="tab hidden disappear"> </div>
+    </div>
+    <div id="container">
+        <div id="main-view">
+            <div id="settings" class="tabcontent">
+                <div class="choose-container">
+                    <div class="choose-background">
+                        <input type="radio" id="blacklist-toggle" class="choose-mode" name="choose-mode">
+                        <input type="radio" id="whitelist-toggle" class="choose-mode" name="choose-mode">
+                        <label id="settings_blacklist_title" data-l10n-id="settings_blacklist_title" for="blacklist-toggle"> Blacklist </label>
+                        <label id="settings_whitelist_title" data-l10n-id="settings_whitelist_title" for="whitelist-toggle"> Whitelist </label>
+                        <div class="choose-slider"> </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div id="settings-whitelist-description" data-l10n-id="settings_whitelist_description" class="disappear"></div>
+                    <div id="settings-blacklist-description" data-l10n-id="settings_blacklist_description" class="">You can not visit the following websites during a planting session</div>
+                </div>
+                <div class="section">
+                    <ul id="blacklist" class="list-box disappear">
+                        <li id="new-black" class="new-list-box-hidden"> &nbsp;&nbsp;&nbsp;&nbsp;
+                            <input id="new-black-box" class="domain new-list-box" type="text" maxlength="50" value="" /> </li>
+                        <li> <img src="images/settings/delete.png" class="x buttons" alt="X" />&nbsp;&nbsp;<img src="favicon.ico" class="favicon" />&nbsp;&nbsp;<span>facebook.com</span> </li>
+                    </ul>
+                    <ul id="whitelist" class="list-box">
+                        <li id="new-white" class="new-white-box-hidden"> &nbsp;&nbsp;&nbsp;&nbsp;
+                            <input id="new-white-box" class="domain new-list-box" type="text" maxlength="50" value="" /> </li>
+                        <li> <img src="images/settings/delete.png" class="x buttons" alt="X" />&nbsp;&nbsp;<img src="favicon.ico" class="favicon" />&nbsp;&nbsp;<span>facebook.com</span> </li>
+                    </ul>
+                    <br /> </div>
+                <h2 id="settings_other_apps_title" data-l10n-id="settings_other_apps_title">More ways to use Forest</h2>
+                <div class="section">
+                    <div id="settings_other_apps_description" data-l10n-id="settings_other_apps_description">Grab Forest app and view your history forest, statistics and more!</div>
+                    <br />
+                    <div id="big-forest-image"></div>
+                    <ul id="os">
+                        <li id="iphone" class="os buttons">
+                            <div id="settings_os_iphone" data-l10n-id="settings_os_iphone" class="os"></div>
+                        </li>
+                        <li id="android" class="os buttons">
+                            <div id="settings_os_android" data-l10n-id="settings_os_android" class="os"></div>
+                        </li>
+                        <!--
+                        <li id="windows" class="os buttons">
+                            <div id="settings_os_windows" data-l10n-id="settings_os_windows" class="os"></div>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+            </div>
+            <div id="synclist" class="tabcontent disappear">
+                <div id="sync-buttons">
+                    <div id="no-sync-btn" data-l10n-id="settings_no_sync_btn" class="buttons disappear">登入以同步</div>
+                    <div id="sync-btn" class="buttons disappear"><i id="sync-btn-icon" class="fa fa-refresh sync-icon"></i>
+                        <div id="sync-btn-title" data-l10n-id="settings_sync_btn">一鍵同步</div>
+                    </div>
+                    <div id="sync-btn-done" data-l10n-id="settings_sync_completed" class="disappear">
+                        <div id="sync-btn-title" data-l10n-id="settings_sync_btn">同步完成</div>
+                    </div>
+                </div>
+                <div id="synclist-no-tree" class="disappear">
+                    <div id="synclist-no-tree-description" data-l10n-id="settings_synclist_no_tree">你還沒有任何種樹紀錄，現在開始種一棵樹吧。</div>
+                    <div id="synclist-no-tree-only-browser" data-l10n-id="settings_only_browser">（只有此瀏覽器的種樹紀錄會出現在這裡。）</div>
+                </div>
+                <div id="tree-container">
+                    <div id="list-head"></div>
+                    <div class="tree-day">
+                        <div class="tree-date">
+                            <div class="date-title">Friday</div>
+                            <div class="date-day">August 4</div>
+                        </div>
+                        <ul class="tree-daylist">
+                            <li class="tree"><img src="./images/trees/tree7/flower_bush_dead.png">
+                                <div class="tree-info">
+                                    <div class="tree-tag">Entertainment</div>
+                                    <div>23:24 - 23:25 ( 40 min )</div>
+                                    <div class="note">今天吃火鍋今天吃火鍋今天吃火鍋不好吃不好吃不好吃不好吃不好吃好好好好好好好好好好好好好好好</div>
+                                </div>
+                                <div class="tree-status"><i class="tooltip fa fa-check" style="font-size:20px;"><span class="tooltiptext">Sync succeeded.</span></i></div>
+                            </li>
+                            <li class="tree"><img src="./images/trees/tree7/flower_bush_dead.png">
+                                <div class="tree-info">Entertainment
+                                    <br>23:24 - 23:25 ( 40 min )
+                                    <div class="note">今天吃火鍋今天吃火鍋今天吃火鍋</div>
+                                </div>
+                                <div class="tree-status"><i class="tooltip fa fa-check" style="font-size:20px;"><span class="tooltiptext">Sync succeeded.</span></i></div>
+                            </li>
+                            <li class="tree"><img src="./images/trees/tree7/flower_bush_dead.png">
+                                <div class="tree-info">Entertainment
+                                    <br>23:24 - 23:25 ( 40 min )
+                                    <div class="note">今天吃火鍋今天吃火鍋今天吃火鍋</div>
+                                </div>
+                                <div class="tree-status"><i class="tooltip fa fa-check" style="font-size:20px;"><span class="tooltiptext">Sync succeeded.</span></i></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="synclist-limit" class="disappear">
+                    <div id="synclist-limit-description" data-l10n-id="settings_synclist_limit"> 這裡只會顯示最近 100 棵樹的種植記錄，更多紀錄請前往手機 app 中查看。</div>
+                    <div id="synclist-limit-only-browser" data-l10n-id="settings_only_browser">（只有此瀏覽器的種樹紀錄會出現在這裡。）</div>
+                </div>
+            </div>
+            <div id="footer"></div>
+        </div>
+    </div>
+    <div id="login-mask" class="disappear"></div>
+    <div id="login-popup" class="disappear login-popup-shrink">
+        <p id="login-title" data-l10n-id="settings_login_title"></p>
+        <br />
+        <form id="login-form"> <span id="login-email-title" data-l10n-id="settings_login_email">Email</span>
+            <input id="login-email-input" name="email" type="text" />
+            <br />
+            <br /> <span id="login-password-title" data-l10n-id="settings_login_password">Password</span>
+            <input id="login-password-input" name="password" type="password" />
+            <br />
+            <br /> </form>
+        <div id="login-message"></div>
+        <div id="login-loading" class="disappear"><img src="images/settings/loading.gif" alt="" /></div>
+        <div id="login-cancel" class="buttons" data-l10n-id="settings_login_cancel"></div>
+        <div id="login-btn" class="buttons" data-l10n-id="settings_login_btn"></div>
+    </div>
+    <div id="edit-mask" class="disappear"></div>
+    <div id="edit-popup" class="disappear edit-popup-shrink">
+        <br />
+        <form id="edit-form">
+            <select id="edit-tag">
+                <option value="volvo">Try</option>
+            </select>
+            <textarea id="edit-note" rows="7" cols="34"></textarea>
+        </form>
+        <div id="edit-cancel" class="buttons" data-l10n-id="settings_edit_cancel">取消</div>
+        <div id="edit-btn" class="buttons" data-l10n-id="settings_edit_btn">確定</div>
+    </div>
+</body>
+
+</html>

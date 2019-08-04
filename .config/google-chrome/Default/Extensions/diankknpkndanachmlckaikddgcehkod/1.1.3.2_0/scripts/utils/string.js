@@ -1,0 +1,1 @@
+define(function(require,exports){var a=require("utils/timeformat");exports.isValidDate=function(b){if(!_.isEmpty(b)){var c=a.prefMoment(b);if(c)return c.isValid()}return!1}});

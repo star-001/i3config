@@ -1,0 +1,1 @@
+define(function(require,exports){var a=require("model/preferences").Model,b=new a;return b});

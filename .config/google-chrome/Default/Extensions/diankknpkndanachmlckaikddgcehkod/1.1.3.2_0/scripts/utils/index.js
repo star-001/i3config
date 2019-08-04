@@ -1,0 +1,1 @@
+define(function(require,exports){exports.setBadgeForExtension=function(a){a>0?root.browserAction.setBadgeText({text:a.toString()}):root.browserAction.setBadgeText({text:""})},exports.clone=function(a){return JSON.parse(JSON.stringify(a))},exports.objClone=function(a){var b=this.clone(a);return new a.constructor(b)}});

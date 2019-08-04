@@ -1,0 +1,26 @@
+[2019-07-26 17:26:35.002] [sharedprocess] [info] main {"machineId":"48b266e2deec3f860887e9fd16b67aacca86135f8f171830fbdcaac4c30144a6"}
+[2019-07-26 17:27:14.991] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-07-26 17:27:26.806] [sharedprocess] [info] Installing extension: ms-python.python
+[2019-07-26 17:27:32.421] [sharedprocess] [info] Installing extension: blackmiaool.link-with-leetcode
+[2019-07-26 17:27:32.481] [sharedprocess] [info] Downloaded extension: ms-python.python /tmp/10456749-bbd9-413b-b33f-c49d51be39eb
+[2019-07-26 17:27:33.315] [sharedprocess] [info] Extracted extension to /home/fan/.vscode/extensions/.ms-python.python-2019.6.24221: ms-python.python
+[2019-07-26 17:27:33.315] [sharedprocess] [info] Renamed to /home/fan/.vscode/extensions/ms-python.python-2019.6.24221
+[2019-07-26 17:27:33.320] [sharedprocess] [info] Installation completed. ms-python.python
+[2019-07-26 17:27:33.533] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2019-07-26 17:27:34.269] [sharedprocess] [info] Downloaded extension: blackmiaool.link-with-leetcode /tmp/52123f5b-5951-4dda-8de7-31d038fb90ae
+[2019-07-26 17:27:34.310] [sharedprocess] [info] Extracted extension to /home/fan/.vscode/extensions/.blackmiaool.link-with-leetcode-0.7.1: blackmiaool.link-with-leetcode
+[2019-07-26 17:27:34.310] [sharedprocess] [info] Renamed to /home/fan/.vscode/extensions/blackmiaool.link-with-leetcode-0.7.1
+[2019-07-26 17:27:34.310] [sharedprocess] [info] Installation completed. blackmiaool.link-with-leetcode
+[2019-07-26 17:27:34.457] [sharedprocess] [info] Extensions installed successfully: blackmiaool.link-with-leetcode
+[2019-07-26 17:29:13.290] [sharedprocess] [info] Installing extension: shengchen.vscode-leetcode
+[2019-07-26 17:29:18.955] [sharedprocess] [info] Downloaded extension: shengchen.vscode-leetcode /tmp/ef75f306-5776-4433-b462-33abfbe07066
+[2019-07-26 17:29:21.080] [sharedprocess] [info] Extracted extension to /home/fan/.vscode/extensions/.shengchen.vscode-leetcode-0.15.2: shengchen.vscode-leetcode
+[2019-07-26 17:29:21.080] [sharedprocess] [info] Renamed to /home/fan/.vscode/extensions/shengchen.vscode-leetcode-0.15.2
+[2019-07-26 17:29:21.080] [sharedprocess] [info] Installation completed. shengchen.vscode-leetcode
+[2019-07-26 17:29:21.191] [sharedprocess] [info] Extensions installed successfully: shengchen.vscode-leetcode
+[2019-07-26 17:44:57.162] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2019-07-26 17:44:58.391] [sharedprocess] [info] Downloaded extension: vscodevim.vim /tmp/53f0ec56-7870-4f85-94c7-dc0bd36f1cdc
+[2019-07-26 17:45:00.101] [sharedprocess] [info] Extracted extension to /home/fan/.vscode/extensions/.vscodevim.vim-1.8.2: vscodevim.vim
+[2019-07-26 17:45:00.101] [sharedprocess] [info] Renamed to /home/fan/.vscode/extensions/vscodevim.vim-1.8.2
+[2019-07-26 17:45:00.102] [sharedprocess] [info] Installation completed. vscodevim.vim
+[2019-07-26 17:45:00.266] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim

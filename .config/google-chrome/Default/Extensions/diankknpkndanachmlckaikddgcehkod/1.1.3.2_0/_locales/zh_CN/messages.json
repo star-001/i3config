@@ -1,0 +1,45 @@
+{
+   "check_detail": {
+      "message": "查看详情"
+   },
+   "check_today_tasks": {
+      "message": "查看今天的任务"
+   },
+   "daily_alert_title": {
+      "message": "今天: $todayTasksCount$条任务, $overDueTasksCount$条已过期",
+      "placeholders": {
+         "overDueTasksCount": {
+            "content": "$2",
+            "example": "1"
+         },
+         "todayTasksCount": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "description": {
+      "message": "简洁, 易用的待办和任务管理工具, 帮助您高效完成所有的事情, 合理规划时间, 让生活更轻松！"
+   },
+   "ext_homepage_url": {
+      "message": "https://dida365.com"
+   },
+   "ext_name_tt": {
+      "message": "滴答清单 - Todo & 任务提醒"
+   },
+   "language": {
+      "message": "zh_CN"
+   },
+   "list_all": {
+      "message": "所有"
+   },
+   "mark_complete": {
+      "message": "标记完成"
+   },
+   "theme": {
+      "message": "Life can be different"
+   },
+   "title_tt": {
+      "message": "滴答清单"
+   }
+}

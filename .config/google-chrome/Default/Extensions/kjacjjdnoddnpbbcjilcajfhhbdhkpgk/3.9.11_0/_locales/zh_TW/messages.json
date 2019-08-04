@@ -1,0 +1,317 @@
+{
+   "appDesc": {
+      "message": "保持專心也可以這麼容易"
+   },
+   "appName": {
+      "message": "Forest：保持專注，用心生活"
+   },
+   "main_add_blacklist_tooltip": {
+      "message": "將目前的網頁加入黑名單"
+   },
+   "main_add_whitelist_tooltip": {
+      "message": "將目前的網頁加入白名單"
+   },
+   "main_edit_popup_btn": {
+      "message": "儲存"
+   },
+   "main_edit_popup_cancel": {
+      "message": "取消"
+   },
+   "main_edit_tooltip": {
+      "message": "註記"
+   },
+   "main_grown_popup_guest_do_not_show_again": {
+      "message": "不要再顯示這個"
+   },
+   "main_grown_popup_guest_info_link": {
+      "message": "手機 app 中"
+   },
+   "main_grown_popup_guest_info_post": {
+      "message": "註冊，賺取額外的"
+   },
+   "main_grown_popup_guest_info_pre": {
+      "message": "在 Forest "
+   },
+   "main_grown_popup_user_reward_pre": {
+      "message": "你得到了"
+   },
+   "main_message_growing_text_0": {
+      "message": "現在就開始工作吧！"
+   },
+   "main_message_growing_text_1": {
+      "message": "不要再逛網頁了！"
+   },
+   "main_message_growing_text_10": {
+      "message": "就在眼前，撐下去！"
+   },
+   "main_message_growing_text_11": {
+      "message": "繼續保持，繼續努力"
+   },
+   "main_message_growing_text_12": {
+      "message": "別放棄啊！"
+   },
+   "main_message_growing_text_2": {
+      "message": "趕快去做事"
+   },
+   "main_message_growing_text_3": {
+      "message": "不要一直看我，人家會害羞"
+   },
+   "main_message_growing_text_4": {
+      "message": "專注！專注！"
+   },
+   "main_message_growing_text_5": {
+      "message": "加油，您做得到的！"
+   },
+   "main_message_growing_text_6": {
+      "message": "趕快做事，認真生活。"
+   },
+   "main_message_growing_text_7": {
+      "message": "一分一秒，皆是您專注的時光。"
+   },
+   "main_message_growing_text_8": {
+      "message": "種一棵樹，心無旁騖。"
+   },
+   "main_message_growing_text_9": {
+      "message": "加油，時間快到了！"
+   },
+   "main_plant_board_text": {
+      "message": "開始"
+   },
+   "main_planting_note_chrome": {
+      "message": "在 Chrome 中種的樹"
+   },
+   "main_planting_note_firefox": {
+      "message": "在 Firefox 中種的樹"
+   },
+   "main_planting_note_safari": {
+      "message": "在 Safari 中種的樹"
+   },
+   "main_settings_tooltip": {
+      "message": "設定"
+   },
+   "main_share_on_failed": {
+      "message": "和我一起在 Forest 種棵樹，不再分心逛網站！ #forestapp"
+   },
+   "main_share_on_success": {
+      "message": "和我一起在 Forest 種棵樹，不再分心逛網站！ #forestapp"
+   },
+   "main_top_description_failed": {
+      "message": "失敗了，下一次再努力！"
+   },
+   "main_top_description_grown": {
+      "message": "成功啦！"
+   },
+   "main_top_description_locked": {
+      "message": "你可以在手機 app 中解鎖新樹種"
+   },
+   "main_top_description_ready": {
+      "message": "點擊樹木圖片開始種植"
+   },
+   "main_top_description_reload": {
+      "message": "請在面板點擊右鍵以重新整理。"
+   },
+   "notification_text_on_fail": {
+      "message": "害你失敗了。"
+   },
+   "notification_text_on_giveup": {
+      "message": "你親手殺死了你的小樹"
+   },
+   "notification_text_on_success": {
+      "message": "你成功種植了一棵健康的樹。"
+   },
+   "notification_text_upload_failed": {
+      "message": "你的樹在上傳的過程中發生了錯誤。"
+   },
+   "notification_title_on_fail": {
+      "message": "失敗..."
+   },
+   "notification_title_on_giveup": {
+      "message": "失敗..."
+   },
+   "notification_title_on_success": {
+      "message": "成功啦！"
+   },
+   "notification_title_upload_failed": {
+      "message": "上傳失敗"
+   },
+   "overlay_giveup": {
+      "message": "放棄"
+   },
+   "overlay_popup_cancel": {
+      "message": "取消"
+   },
+   "overlay_popup_confirm": {
+      "message": "確定"
+   },
+   "overlay_popup_message": {
+      "message": "您充滿活力、綠意盎然的樹將會枯萎"
+   },
+   "overlay_popup_title": {
+      "message": "您確定要放棄嗎？"
+   },
+   "overlay_tree_is_dead": {
+      "message": "您的樹死了"
+   },
+   "overlay_tree_still_growing": {
+      "message": "您的樹正在生長中..."
+   },
+   "plant_tag_0": {
+      "message": "未設定"
+   },
+   "plant_tag_1": {
+      "message": "工作"
+   },
+   "plant_tag_2": {
+      "message": "學習"
+   },
+   "plant_tag_3": {
+      "message": "社交"
+   },
+   "plant_tag_4": {
+      "message": "休息"
+   },
+   "plant_tag_5": {
+      "message": "娛樂"
+   },
+   "plant_tag_6": {
+      "message": "其他"
+   },
+   "plant_tag_7": {
+      "message": "運動"
+   },
+   "settings_blacklist_description": {
+      "message": "種植期間，不能造訪以下網站"
+   },
+   "settings_blacklist_title": {
+      "message": "黑名單"
+   },
+   "settings_edit_btn": {
+      "message": "儲存"
+   },
+   "settings_edit_cancel": {
+      "message": "取消"
+   },
+   "settings_login_btn": {
+      "message": "登入"
+   },
+   "settings_login_cancel": {
+      "message": "取消"
+   },
+   "settings_login_description": {
+      "message": "登入以同步瀏覽器種的樹至手機 app "
+   },
+   "settings_login_email": {
+      "message": "電子信箱"
+   },
+   "settings_login_failed": {
+      "message": "登入失敗。您輸入的信箱或密碼錯誤"
+   },
+   "settings_login_failed_error_code": {
+      "message": "登入失敗。錯誤號碼："
+   },
+   "settings_login_password": {
+      "message": "密碼"
+   },
+   "settings_login_portal": {
+      "message": "登入"
+   },
+   "settings_login_title": {
+      "message": "登入您的 Forest 帳號"
+   },
+   "settings_newblackbox_placeholder": {
+      "message": "在這裡輸入網址"
+   },
+   "settings_no_account1": {
+      "message": "還沒有帳號嗎？你可以在 Forest 手機 app 中註冊："
+   },
+   "settings_no_account2": {
+      "message": "（需要內付費解鎖完整版）"
+   },
+   "settings_no_account_androidapp": {
+      "message": "Android"
+   },
+   "settings_no_account_iosapp": {
+      "message": "iOS"
+   },
+   "settings_no_account_or": {
+      "message": "、"
+   },
+   "settings_no_sync_btn": {
+      "message": "登入以同步"
+   },
+   "settings_only_browser": {
+      "message": "（只有此瀏覽器的種樹紀錄會出現在這裡。）"
+   },
+   "settings_os_android": {
+      "message": "Android"
+   },
+   "settings_os_iphone": {
+      "message": "iPhone"
+   },
+   "settings_os_windows": {
+      "message": "Windows Phone"
+   },
+   "settings_other_apps_description": {
+      "message": "下載 Forest app 以瀏覽歷史紀錄、統計資訊、大森林以及更多的功能！"
+   },
+   "settings_other_apps_title": {
+      "message": "在更多地方使用 Forest"
+   },
+   "settings_status_0": {
+      "message": "傳輸錯誤，請檢查您的網路"
+   },
+   "settings_status_200": {
+      "message": "同步成功"
+   },
+   "settings_status_403": {
+      "message": "驗證錯誤，請重新登入"
+   },
+   "settings_status_fail": {
+      "message": "同步失敗"
+   },
+   "settings_status_waitforsync": {
+      "message": "待同步"
+   },
+   "settings_sync_btn": {
+      "message": "ㄧ鍵同步"
+   },
+   "settings_sync_completed": {
+      "message": "同步完成"
+   },
+   "settings_sync_tree_species_manually": {
+      "message": "同步"
+   },
+   "settings_syncing_tree_species_manually": {
+      "message": "正在同步"
+   },
+   "settings_synclist_limit": {
+      "message": "\b這裡只會顯示最近 100 棵樹的種植紀錄，更多紀錄請前往手機 app 中查看。"
+   },
+   "settings_synclist_no_tree": {
+      "message": "你還沒有任何種樹紀錄。"
+   },
+   "settings_tab_logout": {
+      "message": "登出"
+   },
+   "settings_tab_settings": {
+      "message": "設定"
+   },
+   "settings_tab_synclist": {
+      "message": "記錄"
+   },
+   "settings_title": {
+      "message": "Forest：保持專注，用心生活"
+   },
+   "settings_today": {
+      "message": "今天"
+   },
+   "settings_whitelist_description": {
+      "message": "種植期間，只能造訪以下網站"
+   },
+   "settings_whitelist_title": {
+      "message": "白名單"
+   },
+   "settings_yesterday": {
+      "message": "昨天"
+   }
+}

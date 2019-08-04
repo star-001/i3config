@@ -1,0 +1,17 @@
+20190726T161711:1:[config:load_from_disk] Unable to open configuration file for reading - using defaults
+20190726T161711:1:[config:load_from_disk] Unable to open configuration file for reading - using defaults
+20190726T161711:1:[config:load_from_disk] Unable to open configuration file for reading - using defaults
+20190726T161711:5:***** Attempting to start RescueTime *****
+20190726T161711:5:***** Starting RescueTime *****
+20190726T161711:41:[qt_ui:create_system_tray] Current Thread ID: 0x7fe3f1bf9c80
+20190726T161711:1:QTDBG - Setting tray icon and menu after ...
+20190726T161753:8193:[qt_menu_action_delegate:on_menu_action_triggered] item: 9
+20190726T161753:8193:[qt_system_tray_menu:trigger_menu_item] item: 9
+20190726T161753:1:[User Action] Open Dashboard page.
+20190726T162107:5:***** Attempting to start RescueTime *****
+20190726T162107:5:***** Starting RescueTime *****
+20190726T162108:41:[qt_ui:create_system_tray] Current Thread ID: 0x7f8fec011c80
+20190726T162108:1:QTDBG - Setting tray icon and menu after ...
+20190726T162111:8193:[qt_menu_action_delegate:on_menu_action_triggered] item: 9
+20190726T162111:8193:[qt_system_tray_menu:trigger_menu_item] item: 9
+20190726T162111:1:[User Action] Open Dashboard page.

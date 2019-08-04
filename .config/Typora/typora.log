@@ -1,0 +1,111 @@
+INFO 8/2/2019, 2:24:48 PM  cannot parse user config, use the default one
+DEBUG 8/2/2019, 2:24:48 PM  initSentry
+INFO 8/2/2019, 2:24:48 PM  luanchFromDiffVersion, pre version is undefined
+INFO 8/2/2019, 2:24:48 PM  overwriteThemeFolder
+DEBUG 8/2/2019, 2:24:48 PM  initCountly
+INFO 8/2/2019, 2:24:48 PM  ------------------start------------------
+INFO 8/2/2019, 2:24:48 PM  typora version: 0.9.72
+DEBUG 8/2/2019, 2:24:48 PM  [ '/usr/share/typora/Typora' ]
+DEBUG 8/2/2019, 2:24:48 PM  /usr/share/typora/resources/app/locales/Base.lproj/Menu.json
+ERROR 8/2/2019, 2:24:48 PM  (node:13312) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+DEBUG 8/2/2019, 2:24:48 PM  app.openFile
+INFO 8/2/2019, 2:24:48 PM  [focus] 1
+INFO 8/2/2019, 2:24:48 PM  [blur] 1
+INFO 8/2/2019, 2:24:48 PM  [focus] 1
+DEBUG 8/2/2019, 2:24:48 PM  [ 'github.css',
+  'newsprint.css',
+  'night.css',
+  'pixyll.css',
+  'whitey.css' ]
+INFO 8/2/2019, 2:47:56 PM  [blur] 1
+INFO 8/2/2019, 2:56:50 PM  [focus] 1
+INFO 8/2/2019, 3:07:14 PM  [blur] 1
+INFO 8/2/2019, 3:07:15 PM  [focus] 1
+INFO 8/2/2019, 3:07:16 PM  [blur] 1
+INFO 8/2/2019, 3:08:04 PM  [focus] 1
+INFO 8/2/2019, 3:11:16 PM  [blur] 1
+INFO 8/2/2019, 3:11:16 PM  [focus] 1
+INFO 8/2/2019, 3:11:17 PM  [blur] 1
+INFO 8/2/2019, 3:11:31 PM  [focus] 1
+INFO 8/2/2019, 3:11:31 PM  [blur] 1
+INFO 8/2/2019, 3:11:34 PM  [focus] 1
+INFO 8/2/2019, 3:11:35 PM  [blur] 1
+INFO 8/2/2019, 3:11:35 PM  [focus] 1
+INFO 8/2/2019, 3:17:25 PM  [blur] 1
+INFO 8/2/2019, 3:19:10 PM  [focus] 1
+INFO 8/2/2019, 3:19:11 PM  [blur] 1
+INFO 8/2/2019, 3:19:12 PM  [focus] 1
+INFO 8/2/2019, 3:19:12 PM  [blur] 1
+INFO 8/2/2019, 3:19:24 PM  [focus] 1
+INFO 8/2/2019, 3:20:02 PM  [blur] 1
+INFO 8/2/2019, 3:20:03 PM  [focus] 1
+INFO 8/2/2019, 3:20:03 PM  [blur] 1
+INFO 8/2/2019, 3:20:05 PM  [focus] 1
+INFO 8/2/2019, 3:20:06 PM  [blur] 1
+INFO 8/2/2019, 3:20:06 PM  [focus] 1
+INFO 8/2/2019, 3:20:06 PM  [blur] 1
+INFO 8/2/2019, 3:20:09 PM  [focus] 1
+INFO 8/2/2019, 3:20:09 PM  [blur] 1
+INFO 8/2/2019, 3:20:14 PM  [focus] 1
+INFO 8/2/2019, 3:20:14 PM  [blur] 1
+INFO 8/2/2019, 3:20:14 PM  [focus] 1
+INFO 8/2/2019, 3:20:14 PM  [blur] 1
+INFO 8/2/2019, 3:20:14 PM  [focus] 1
+INFO 8/2/2019, 3:20:17 PM  [blur] 1
+INFO 8/2/2019, 3:22:23 PM  [focus] 1
+INFO 8/2/2019, 3:44:57 PM  [blur] 1
+INFO 8/2/2019, 3:45:49 PM  [focus] 1
+INFO 8/2/2019, 3:46:24 PM  [blur] 1
+INFO 8/2/2019, 3:46:53 PM  [focus] 1
+INFO 8/2/2019, 4:08:02 PM  [blur] 1
+INFO 8/2/2019, 4:08:28 PM  [focus] 1
+INFO 8/2/2019, 4:38:30 PM  [blur] 1
+INFO 8/2/2019, 4:40:13 PM  [focus] 1
+INFO 8/2/2019, 5:14:46 PM  [blur] 1
+INFO 8/2/2019, 6:35:46 PM  [focus] 1
+INFO 8/2/2019, 6:45:50 PM  [blur] 1
+INFO 8/2/2019, 8:27:06 PM  [focus] 1
+INFO 8/2/2019, 8:37:10 PM  [blur] 1
+INFO 8/2/2019, 8:48:43 PM  [focus] 1
+INFO 8/2/2019, 8:48:45 PM  [blur] 1
+INFO 8/2/2019, 8:48:47 PM  [focus] 1
+INFO 8/2/2019, 8:48:48 PM  [blur] 1
+INFO 8/2/2019, 9:16:58 PM  [focus] 1
+INFO 8/2/2019, 9:16:58 PM  [blur] 1
+INFO 8/2/2019, 11:16:53 PM  [focus] 1
+INFO 8/2/2019, 11:16:55 PM  [blur] 1
+INFO 8/2/2019, 11:16:57 PM  [focus] 1
+INFO 8/2/2019, 11:16:57 PM  [blur] 1
+INFO 8/2/2019, 11:16:57 PM  [focus] 1
+INFO 8/2/2019, 11:16:57 PM  [blur] 1
+INFO 8/2/2019, 11:16:57 PM  [focus] 1
+INFO 8/2/2019, 11:17:01 PM  [blur] 1
+INFO 8/2/2019, 11:17:05 PM  [focus] 1
+INFO 8/2/2019, 11:17:05 PM  addRecentDocument
+INFO 8/2/2019, 11:17:07 PM  [blur] 1
+INFO 8/2/2019, 11:50:09 PM  ------------------quit------------------
+INFO 8/4/2019, 9:11:22 PM  luanchFromDiffVersion, pre version is undefined
+INFO 8/4/2019, 9:11:22 PM  overwriteThemeFolder
+INFO 8/4/2019, 9:11:23 PM  ------------------start------------------
+INFO 8/4/2019, 9:11:23 PM  typora version: 0.9.73
+DEBUG 8/4/2019, 9:11:23 PM  [ '/usr/share/typora/Typora' ]
+ERROR 8/4/2019, 9:11:23 PM  (node:20622) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+DEBUG 8/4/2019, 9:11:23 PM  app.openFile
+INFO 8/4/2019, 9:11:23 PM  [focus] 1
+DEBUG 8/4/2019, 9:11:30 PM  app.openFile
+INFO 8/4/2019, 9:11:30 PM  switchDocument
+INFO 8/4/2019, 9:11:30 PM  addRecentDocument
+INFO 8/4/2019, 9:11:32 PM  [blur] 1
+INFO 8/4/2019, 9:11:34 PM  [focus] 1
+INFO 8/4/2019, 9:11:34 PM  [blur] 1
+INFO 8/4/2019, 9:11:34 PM  [focus] 1
+INFO 8/4/2019, 9:11:34 PM  [blur] 1
+INFO 8/4/2019, 9:11:34 PM  [focus] 1
+INFO 8/4/2019, 9:11:48 PM  [blur] 1
+INFO 8/4/2019, 9:12:09 PM  [focus] 1
+INFO 8/4/2019, 9:12:15 PM  [blur] 1
+INFO 8/4/2019, 9:12:38 PM  [focus] 1
+INFO 8/4/2019, 9:13:37 PM  [blur] 1
+INFO 8/4/2019, 9:13:47 PM  [focus] 1
+INFO 8/4/2019, 9:13:51 PM  ------------------quit------------------
+INFO 8/4/2019, 9:13:51 PM  ------------------will-quit------------------

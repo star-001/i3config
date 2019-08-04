@@ -1,0 +1,5 @@
+{
+    "vim.neovimPath": "/usr/bin/nvim",
+    "leetcode.endpoint": "leetcode-cn",
+    "leetcode.workspaceFolder": "/home/fan/.leetcode"
+}

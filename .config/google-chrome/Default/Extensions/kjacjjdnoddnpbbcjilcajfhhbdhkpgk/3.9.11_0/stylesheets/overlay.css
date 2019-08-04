@@ -1,0 +1,196 @@
+.forest-cursor {
+  cursor: default !important;
+}
+.forest-select {
+  -moz-user-select: none !important;
+  -webkit-user-select: none !important;
+}
+.forest-disappear {
+  display: none !important;
+}
+.forest-buttons {
+  transition: transform 0.1s !important;
+  cursor: pointer !important;
+  image-rendering: crisp-edges !important;
+}
+.forest-buttons:active {
+  opacity: 0.5 !important;
+}
+.forest-buttons:hover {
+  transform: scale(1.1) !important;
+}
+.forest-body {
+  overflow: hidden !important;
+  height: 100% !important;
+}
+.forest-overlay-container {
+  position: absolute !important;
+  height: 100% !important;
+  width: 100% !important;
+  z-index: 2147483000 !important;
+}
+.forest-overlay {
+  z-index: 2147483000 !important;
+  position: fixed !important;
+  top: 0px !important;
+  left: 0px !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  text-align: center !important;
+  display: inline-block !important;
+  margin: 0 !important;
+}
+.forest-overlay-fadeout {
+  opacity: 0.0 !important;
+  transition: opacity 0.3s !important;
+}
+.forest-info-container {
+  text-align: center !important;
+  position: absolute !important;
+  top: calc(50% - 250px) !important;
+  height: 500px !important;
+  width: 100% !important;
+}
+.forest-overlay-top-text {
+  font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif' !important;
+  vertical-align: middle !important;
+  color: white !important;
+  font-size: 32px !important;
+  line-height: 32px !important;
+  cursor: default !important;
+  -webkit-user-select: none !important;
+  position: absolute;
+  margin: 0 auto !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 50px !important;
+}
+.forest-tree-ball {
+  margin: 0 auto !important;
+  position: absolute;
+  /* margin-top: 100px !important; */
+  /* top: 120px !important; */
+  /* left: 0px !important; */
+  /* right: 0px !important; */
+  top: calc(50% - 75px) !important;
+  left: calc(50% - 75px) !important;
+  width: 150px !important;
+  height: 150px !important;
+  background-image: url('chrome-extension://__MSG_@@extension_id__/images/main/planting_circle.svg');
+  /*url(../images/main/planting_circle.svg);*/
+  background-size: contain;
+}
+.forest-tree {
+  position: absolute !important;
+  margin: 0 auto !important;
+  /* margin-top: -135px !important; */
+  top: 12px !important;
+  left: 31px !important;
+  width: 88px !important;
+  height: 88px !important;
+  background-image: url(/images/trees/tree_1.svg);
+  background-size: contain;
+}
+.forest-overlay-bottom-text {
+  font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif' !important;
+  vertical-align: middle !important;
+  color: white !important;
+  font-size: 64px !important;
+  line-height: 64px !important;
+  cursor: default !important;
+  -webkit-user-select: none !important;
+  position: absolute !important;
+  width: 100%;
+  margin: 0 auto !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: calc(80% - 32px) !important;
+}
+.forest-giveup-button {
+  display: inline-block !important;
+  position: absolute;
+  font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif' !important;
+  border: 1px solid white !important;
+  border-radius: 5px !important;
+  vertical-align: middle !important;
+  color: white !important;
+  font-size: 16px !important;
+  line-height: 16px !important;
+  -webkit-user-select: none !important;
+  position: absolute;
+  top: calc(100% - 14px) !important;
+  left: calc(50% - 22px) !important;
+  /* margin: 0 auto !important;
+  margin-top: 200px !important; */
+  padding: 5px !important;
+}
+.forest-popup {
+  position: fixed !important;
+  margin: 0 auto !important;
+  top: calc( 50% - 70px) !important;
+  left: 0px !important;
+  right: 0px !important;
+  width: 340px !important;
+  height: 180px !important;
+  padding: 20px !important;
+  border-radius: 10px !important;
+  background-color: white !important;
+  color: black !important;
+  /*box-shadow: 0px 0px 10px 3px grey; */
+  text-align: center !important;
+  transition: transform 0.3s !important;
+}
+.forest-popup-shrink {
+  transform: scale(0) !important;
+}
+.forest-popup-title {
+   font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif' !important;
+  font-size: 22px !important;
+  line-height: 22px !important;
+  font-weight: bold !important;
+  text-align: center !important;
+}
+.forest-popup-message {
+   font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif' !important;
+  font-size: 18px !important;
+  line-height: 18px !important;
+  text-align: center !important;
+}
+.forest-popup-confirm-button, .forest-popup-cancel-button {
+  position: absolute !important;
+  bottom: 20px !important;
+  display: inline-block !important;
+  font-weight: bold !important;
+  color: white !important;
+  border-radius: 5px !important;
+  text-align: center !important;
+  line-height: 30px !important;
+  height: 30px !important;
+  width: 100px !important ;
+  font-size: 18px !important;
+  padding: 5px !important;
+}
+.forest-popup-confirm-button {
+  right: 50px !important;
+  background-color: #51A387 !important;
+  /*border-bottom: 3px solid #979797;*/
+}
+.forest-popup-cancel-button {
+  left: 50px !important;
+  background-color: #51A387 !important;
+  /* border-bottom: 3px solid #979797;*/
+}
+.forest-popup-mask {
+  position: fixed !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  background-color: black !important;
+  transition: opacity 0.3s !important;
+  opacity: 0 !important;
+}
+.forest-popup-masked {
+  opacity: 0.8 !important;
+}

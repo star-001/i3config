@@ -1,0 +1,20 @@
+00:00:00.635936 VirtualBox GUI VM Selector Window 6.0.10 r132055 linux.amd64 (Jul 16 2019 13:49:20) release log
+00:00:00.635937 Log opened 2019-08-04T11:56:53.642955000Z
+00:00:00.635938 Build Type: release
+00:00:00.635939 OS Product: Linux
+00:00:00.635940 OS Release: 4.19.62-1-MANJARO
+00:00:00.635941 OS Version: #1 SMP PREEMPT Sun Jul 28 09:14:58 UTC 2019
+00:00:00.635954 DMI Product Name: GL63 8RE
+00:00:00.635958 DMI Product Version: REV:1.0
+00:00:00.635979 Host RAM: 15884MB (15.5GB) total, 13591MB (13.2GB) available
+00:00:00.635981 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.635981 Process ID: 10020
+00:00:00.635981 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.635995 Qt version: 5.13.0
+00:00:00.653223 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.126896 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:05.305580 GUI: UIInvisibleWindow::sltFallback: Move event haven't came. Screen: 0, work area: 957x539 x 38x25
+00:00:05.305602 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 957x539 x 38x25
+00:00:52.081870 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:01:01.756128 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:01:01.863873 GUI: UIMediumEnumerator: Medium-enumeration finished!

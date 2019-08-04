@@ -1,0 +1,21 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "style.min.css" ],
+      "js": [ "script.min.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Minimal but Useful Scrollbars",
+   "icons": {
+      "128": "icons/minimalscrollbar-128.png",
+      "48": "icons/minimalscrollbar-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoc9lT5qcBACcrLSgMaTRoiFccmCzuSUSj6lAQ8LQT2DrHigI30OS5E0h1rlNKh7uD5Gk5KefSpQi9i2kqyFI1vGlsRwkD4JpcjoICOxQkA6bIO5hg6LDnv52SqhrJdfndyzVcEjm1SiYqUGK7s/Tj2wn1MM8s0vlVlW4hNC/XPwIDAQAB",
+   "manifest_version": 2,
+   "name": "Minimal Scrollbar",
+   "options_page": "pages/option.html",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.4.0"
+}

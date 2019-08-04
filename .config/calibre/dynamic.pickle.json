@@ -1,0 +1,17 @@
+{
+  "add books dialog dir": "/home/fan/Downloads", 
+  "save to disk dialog": "/home/fan/Downloads", 
+  "sort_history": [
+    [
+      "timestamp", 
+      false
+    ], 
+    [
+      "timestamp", 
+      false
+    ]
+  ], 
+  "sr_saved_patterns": "/home/fan/Downloads", 
+  "welcome_wizard_device": "iphone", 
+  "welcome_wizard_was_run": true
+}

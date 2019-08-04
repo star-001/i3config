@@ -1,0 +1,30 @@
+2019/08/04-18:32:32.938 e31 Reusing MANIFEST Session Storage/MANIFEST-000001
+2019/08/04-18:32:32.939 e31 Recovering log #342
+2019/08/04-18:32:32.939 e31 Reusing old log Session Storage/000342.log 
+2019/08/04-18:56:33.932 1486 Level-0 table #347: started
+2019/08/04-18:56:33.999 1486 Level-0 table #347: 32454 bytes OK
+2019/08/04-18:56:34.049 1486 Delete type=0 #342
+2019/08/04-19:10:48.404 1759 Level-0 table #349: started
+2019/08/04-19:10:48.513 1759 Level-0 table #349: 14301 bytes OK
+2019/08/04-19:10:48.667 1759 Delete type=0 #346
+2019/08/04-19:17:37.571 1759 Level-0 table #351: started
+2019/08/04-19:17:37.679 1759 Level-0 table #351: 22517 bytes OK
+2019/08/04-19:17:37.778 1759 Delete type=0 #348
+2019/08/04-20:07:45.159 2c09 Level-0 table #353: started
+2019/08/04-20:07:45.311 2c09 Level-0 table #353: 18441 bytes OK
+2019/08/04-20:07:45.453 2c09 Delete type=0 #350
+2019/08/04-20:07:45.454 28f5 Compacting 4@0 + 1@1 files
+2019/08/04-20:07:45.568 28f5 Generated table #354@0: 4136 keys, 166688 bytes
+2019/08/04-20:07:45.569 28f5 Compacted 4@0 + 1@1 files => 166688 bytes
+2019/08/04-20:07:45.711 28f5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/08/04-20:07:45.712 28f5 Delete type=2 #344
+2019/08/04-20:07:45.713 28f5 Delete type=2 #353
+2019/08/04-20:07:45.713 28f5 Delete type=2 #347
+2019/08/04-20:07:45.714 28f5 Delete type=2 #351
+2019/08/04-20:07:45.714 28f5 Delete type=2 #349
+2019/08/04-21:43:48.453 5afc Level-0 table #356: started
+2019/08/04-21:43:48.622 5afc Level-0 table #356: 22669 bytes OK
+2019/08/04-21:43:48.814 5afc Delete type=0 #352
+2019/08/04-23:06:49.319 70d2 Level-0 table #358: started
+2019/08/04-23:06:49.399 70d2 Level-0 table #358: 19756 bytes OK
+2019/08/04-23:06:49.459 70d2 Delete type=0 #355

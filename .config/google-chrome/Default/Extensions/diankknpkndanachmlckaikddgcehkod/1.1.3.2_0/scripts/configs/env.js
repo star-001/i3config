@@ -1,0 +1,1 @@
+define(function(require,exports){exports.domain_tick="ticktick.com",exports.domain_dida="dida365.com",exports.cookie_domain=[".ticktick.com",".dida365.com"],exports.api_tick="api.ticktick.com",exports.api_dida="api.dida365.com",exports.protocol="https://"});

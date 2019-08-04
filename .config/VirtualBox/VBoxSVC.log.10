@@ -1,0 +1,42 @@
+00:00:00.000112 main     VirtualBox XPCOM Server 6.0.10 r132055 linux.amd64 (Jul 16 2019 13:49:20) release log
+00:00:00.000114 main     Log opened 2019-08-03T03:42:51.905034000Z
+00:00:00.000114 main     Build Type: release
+00:00:00.000116 main     OS Product: Linux
+00:00:00.000116 main     OS Release: 4.19.62-1-MANJARO
+00:00:00.000117 main     OS Version: #1 SMP PREEMPT Sun Jul 28 09:14:58 UTC 2019
+00:00:00.000130 main     DMI Product Name: GL63 8RE
+00:00:00.000134 main     DMI Product Version: REV:1.0
+00:00:00.000152 main     Host RAM: 15884MB (15.5GB) total, 11903MB (11.6GB) available
+00:00:00.000153 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000154 main     Process ID: 13677
+00:00:00.000154 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001244 main     IPC socket path: /tmp/.vbox-fan-ipc/ipcd
+00:00:00.105582 nspr-2   VirtualBox: object creation starts
+00:00:00.105624 nspr-2   Home directory: '/home/fan/.config/VirtualBox'
+00:00:00.110467 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.110882 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
+00:00:00.110891 nspr-2   HostDnsMonitor::updateInfo
+00:00:00.110897 nspr-2   HostDnsMonitor: old information
+00:00:00.110899 nspr-2     no server entries
+00:00:00.110900 nspr-2     no domain set
+00:00:00.110902 nspr-2     no search string entries
+00:00:00.110903 nspr-2   HostDnsMonitor: new information
+00:00:00.110905 nspr-2     server 1: 192.168.1.1
+00:00:00.110907 nspr-2     domain: lan
+00:00:00.110908 nspr-2     search string 1: lan
+00:00:00.112457 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.112548 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.112596 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d55176e5-6730-4e9e-fc1f-a59b1f44f78f} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.112869 nspr-2   VirtualBox: object created
+00:00:07.191568 nspr-3   Saving settings file "/home/fan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:07.381634 nspr-2   Saving settings file "/home/fan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:19.887125 nspr-3   Saving settings file "/home/fan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:20.000375 nspr-3   Saving settings file "/home/fan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:20.098878 nspr-2   Saving settings file "/home/fan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:20.199182 nspr-3   Saving settings file "/home/fan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:20.297004 nspr-3   Saving settings file "/home/fan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:20.394646 nspr-3   Saving settings file "/home/fan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:26.047178 main     VirtualBox: object deletion starts
+00:00:26.117458 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:31.047600 main     {00007f4fd8016230} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:00:31.047812 main     VirtualBox: object deleted

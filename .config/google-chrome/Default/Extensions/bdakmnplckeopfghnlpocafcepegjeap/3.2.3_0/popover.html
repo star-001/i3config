@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta NAME="Description" CONTENT="Automatic productivity enhancer." />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="refresh" content="7320">   <link rel="shortcut icon" href="/favicon.ico" />
+<title>RescueTime - Productivity and Personal Analytics</title>
+
+<link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="vendor/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="lib/RescueTimePopover.js" type="text/javascript" charset="utf-8"></script>
+<script src="popover.js" type="text/javascript" charset="utf-8"></script>
+
+
+<style>
+#rt_popover_base { width: 700px;}
+SPAN#rt_popover_nav_dashboard {
+  background: url(popover-logo.svg) 0 0 no-repeat;
+}
+DIV#rt_popover_dashboard_loading P {
+  background: url(loading.gif) center 10px no-repeat #d5e8f5;
+}
+</style>
+</head>
+<style>
+
+/* #rt_popover_control { float: right; 20%; }*/
+#rt_popover_account_panel { width: 100%; overflow: auto; clear: both; margin: 0 0px 20px 0px; padding-top: 20px;}
+#rt_popover_mode_panel { width: 100%; overflow: auto; clear: both; margin: 0 0px 20px 0px; padding: 20px 40px 20px; }
+#rt_popover_dashboard_panel { width: 100%; clear: both; height: 320px; position: relative; }
+#rt_popover_dashboard_iframe { width: 100%; height: 320px; position: absolute; top: 0; left: 0; }
+#rt_popover_pause_panel { width: 100%; clear: both; margin: 0 10px 20px 10px; padding: 20px 40px 20px; }
+#rt_popover_messages { width: 100%; clear: both; display: none; position: absolute; z-index: 10; top: 41px; }
+#rt_popover_debug_panel { clear: both; width: 98%; background: cornsilk; }
+#rt_popover_debug_log { padding: 3px; border: 1px #777777 solid; }
+#rt_popover_help_panel { width: 98%; clear: both; margin: 20px 10px 30px 10px; }
+#rt_popover_help_panel p { text-align: left; font-size: 100%; margin-top:20px; }
+#rt_popover_help_email { width: 100%; margin-top: 20px;}
+#rt_popover_help_main { width: 100%; margin-top: 20px;}
+span.clickable { color:#2367aa; }
+span.clickable:hover {color:#2893fd; text-decoration:underline;cursor:pointer;}
+span.warning { color: red; }
+span.notice { color: green; }
+
+DIV#disable-plugin-logging-container {
+  padding: 0 15px 15px;
+  border-bottom: 1px dotted #333;
+  margin-bottom: 15px;
+}
+  DIV#disable-plugin-logging-container LABEL {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  DIV#disable-plugin-logging-container P {
+    padding-left: 20px;
+  }
+DIV#rt_popover_account_panel_active {
+  padding: 0 40px 10px;
+}
+  DIV#rt_popover_account_panel_active H2,
+  DIV#rt_popover_pause_panel H2 {
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
+  DIV#rt_popover_pause_panel INPUT#rt_popover_pause_for_minutes {
+    width: 80px;
+    font-size: 18px;
+    padding: 5px;
+  }
+DIV#rt_popover_account_panel UL LI {
+  margin-bottom: 10px;
+}
+DIV#rescutime-web-setting-links {
+  width: 50%;
+  float: left;
+}
+DIV#rt_popover_account_forget_confirm {
+  width: 45%;
+  float: left;
+}
+
+DIV#rt_popover_account_forget_confirm P {
+  margin-bottom: 9px;
+}
+</style>
+
+<body>
+<div id="rt_popover_base">
+
+<div id="rt_popover_no_app" style="display:none;">
+  This RescueTime helper extension assists the installable client.
+  <br />It is meant for beta test use only.
+</div>
+
+<div id="rt_popover_app_container">
+
+<div id="rt_popover_nav">
+  <span class="clickable nav_member" id="rt_popover_nav_dashboard">RescueTime</span>
+  <div id="rt_popover_nav_with_account">
+    <span class="clickable nav_member warning" id="rt_popover_logging_schedule" style="display:none;">Monitoring disabled by schedule ! </span>
+    <span class="clickable nav_member" id="rt_popover_nav_more_stats">See more stats</span> |
+    <span class="clickable nav_member" id="rt_popover_nav_pause">Pause</span> <span id="rt_popover_nav_pause_spacer">|</span>
+    <span class="clickable nav_member" id="rt_popover_nav_account">Settings</span>
+  </div>
+</div>
+
+<div id="rt_popover_account_panel" style="display: none;">
+  <!-- activation panel shown when no account key -->
+<div id="rt_popover_account_panel_activation" style="display: none;">
+  <h2 class="rt_popover_nav_browser_name"></h2>
+  <!-- <p id="rt_popover_account_form" class="form"> -->
+    <!-- <input type="text" style="width: 400px;" id="rt_popover_account_email" name="email" placeholder="enter your email address"/>
+    <a href="#" id="rt_popover_activation_button">Sign in</a> -->
+    <p id="rt_popover_nav_signin_link"><a href="#">Sign in to RescueTime</a></p>
+    <p id="rt_popover_nav_signup_link">Don't have an account? <a href="#">Sign up!</a></p>
+  </p>
+
+  <div class="rt-activation-info">
+    <div id="rt-activation-info-not-cros">
+      <label class="clickable">
+      <input type="checkbox" id="rt_popover_account_local_logging" value="true" />
+      I'm already using the full RescueTime application on this <span id="os-name">computer</span>.
+      </label>
+      <p>Leave this checked if you're already running the full version of RescueTime on this computer.</p>
+    </div>
+  </div>
+</div>
+<!-- end activation panel -->
+<div id="rt_popover_account_panel_active" style="display: none;">
+  <h2>Settings:</h2>
+  <div id="disable-plugin-logging-container">
+    <div id="rescuetime-settings-disable-logging">
+      <label class="clickable">
+        <input type="checkbox" id="disable-plugin-logging" value="false" />
+      I'm already using the full RescueTime application on this <span id="os-name">computer</span>.
+      </label>
+      <p>If you have the full version of RescueTime installed on this computer and this box is <strong>not</strong> checked, then your time spent in this browser will be logged twice.</p>
+    </div>
+    <label class="clickable" style="margin-top: 10px;">
+      <input type="checkbox" id="daily-average-include-weekend" value="true" />
+      Include weekends in daily averages.
+    </label>
+    <p>Usage patterns can vary widely between weekdays and weekends. Check this box to include weekends in the daily average calculations.</p>
+  </div>
+  <div id="rescutime-web-setting-links">
+    <ul>
+      <li>
+        <span class="clickable" id="rt_popover_account_settings_account">
+          Account settings
+          <span id="rt_popover_account_registered_as"></span>
+        </span>
+      </li>
+      <li><span class="clickable" id="rt_popover_account_settings_monitoring">Privacy settings</span></li>
+      <li id="rt_popover_account_upgrade" style="display: none;"><strong><span class="clickable" id="rt_popover_account_upgrade_now">Upgrade to RescueTime Pro</span></strong></li>
+      <li><span class="clickable" id="rt_popover_account_forget">Sign out [forget this browser]</span></li>
+    </ul>
+  </div>
+  <div id="rt-connection-indicator" style="display: none;">
+    <span>---</span>
+  </div>
+
+  <div id="rt_popover_account_forget_confirm" style="display:none;">
+    <h3>Are you sure?</h3>
+    <p>Remove account info from this browser and prevent logging activity?</p>
+    <button class="clickable" id="rt_popover_account_forget_ok">Yes, sign out</button>
+    <span class="clickable" id="rt_popover_account_forget_cancel">[cancel]</span>
+  </div>
+</div>
+</div><!-- account panel -->
+
+<div id="rt_popover_pause_panel" style="display: none;">
+  <h2>Pause RescueTime</h2>
+  <p id="rt_popover_pause_form" class="form">
+    for: <input type="text" id="rt_popover_pause_for_minutes" name="pause_for" value="30" />
+    <button id="rt_popover_pause_for_button">minutes</button>
+    or <button id="rt_popover_pause_tomorrow_button">until tomorrow</button>
+  </p>
+  <p class="explanation">
+    Pausing RescueTime will stop it from logging your activity for the duration that you specify.
+  </p>
+</div><!-- pause panel -->
+
+<!-- <div id="rt_popover_mode_panel" style="display: none;">
+  <h2 class="rt_popover_nav_browser_name"></h2>
+  <h3 class="mode_notice">
+    We can't connect to the RescueTime Desktop App!
+  </h3>
+  <p>You can download the desktop app <a href="https://www.rescuetime.com">here</a>.</p>
+  <p class="rt_popover_select_mode"><a href="#" id="disable_local_log">If the desktop app is running, try again</a></p>
+  <p><a href="#" id="enable_local_log">Continue without the desktop app</a></p>
+</div> --><!-- mode panel -->
+
+<div id="rt_popover_messages">
+<span id="rt_popover_message_span" class="message"></span>
+</div><!-- messages -->
+
+<div id="rt_popover_help_panel" style="display: none;">
+<p>RescueTime Help</p>
+<div id="rt_popover_help_debug"><span class="clickable nav_member_right">[debug]</span></div>
+<div id="rt_popover_help_email" style="display: none;">
+  <br />
+  Your email becomes your user name on www.rescuetime.com.
+  This allows you to reach your account from anywhere, and to link any other device to the same account.
+  <hr />
+</div>
+<div id="rt_popover_help_main" style="display: none;">
+  <p>
+  The rest of help is here.
+  </p>
+</div>
+<div id="rt_popover_debug_panel" style="display: none;">
+<div id="rt_popover_debug_close"><span class="clickable nav_member_right">[x]</span></div>
+<div id="rt_popover_debug_hello"><span class="clickable nav_member_right">[hello test]</span></div>
+<div id="rt_popover_debug_reset"><span class="clickable nav_member_right">[hard reset]</span></div>
+<div id="rt_popover_debug_message"></div>
+<div id="rt_popover_debug_log"></div>
+</div><!-- debug panel -->
+</div><!-- help panel -->
+
+<div id="rt_popover_dashboard_panel" style="display:none;">
+  <div id="rt_popover_dashboard_loading">
+    <p>Loading...</p>
+  </div>
+  <iframe id="rt_popover_dashboard_iframe" frameBorder="0" scrolling="no" hspace="0" vspace="0" marginheight="0" marginwidth="0">
+  </iframe>
+</div><!-- dashboard panel -->
+
+</div><!-- rt_popover_app_container -->
+</div><!-- rt_popover_base -->
+</body>
+</html>

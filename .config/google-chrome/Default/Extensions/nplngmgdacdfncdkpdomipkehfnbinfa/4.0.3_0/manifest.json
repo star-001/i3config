@@ -1,0 +1,29 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "core.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+   },
+   "commands": {
+      "add-url": {
+         "description": "Add current page to ReadLater",
+         "suggested_key": {
+            "default": "Ctrl+Shift+L",
+            "mac": "Command+Shift+L"
+         }
+      }
+   },
+   "description": "Store links to read later.",
+   "icons": {
+      "48": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD1AoPopSnJDXhMO0IH/tu5TG/SOxuyLru0fm39HFYjSzv0yTy7QIGtDIhDCS1aZdOGCRA3AUPbdNOjy+wHc6vh3kgyc3adPPjdaTjVzSJkGTaW3X8sC4FTVxZ5s5l+7vHvksCuB6t3RUKTqN9uZ4R70eEd+L2JCiTip+0wi3AU1wIDAQAB",
+   "manifest_version": 2,
+   "name": "Read Later",
+   "permissions": [ "storage", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.3"
+}

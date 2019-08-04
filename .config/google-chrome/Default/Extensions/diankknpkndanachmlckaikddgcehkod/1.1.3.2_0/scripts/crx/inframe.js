@@ -1,0 +1,1 @@
+function postMessageToIframe(a){var b=document.getElementById("tt-gmail-inframe").contentWindow;b&&b.postMessage(a,"https://"+a.domain)}function listenMessage(){window.addEventListener("message",function(a){var b=a.data;b&&postMessageToIframe(b)})}var ancestorOrigins="";listenMessage();

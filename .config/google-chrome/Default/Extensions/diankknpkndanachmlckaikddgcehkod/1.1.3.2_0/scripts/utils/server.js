@@ -1,0 +1,1 @@
+define(function(require,exports,a){var b=require("utils/http");return{http:b,dataSync:function(a,c,d){b.get("/batch/check/"+a,c,d)},getHoliday:function(a,c,d,e){a=a||"cn";var f="/calendar/holiday/"+a+"/recent";e?b.pub_get_v1(f,c,d):b.pub_get_v1_sync(f,c,d)},isCnIP:function(a,c){b.get("/user/sign/suggestcn",a,c)},getUserStatus:function(a,c){b.get("/user/status",a,c)}}});

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link href="stylesheets/common.css" media="screen" rel="stylesheet" />
+    <link href="stylesheets/screen.css" media="screen" rel="stylesheet" />
+    <link href="stylesheets/tooltip.css" media="screen" rel="stylesheet" />
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/panel.js"></script>
+</head>
+
+<body>
+    <div id="main-view">
+        <div id="setting-mask" class="disappear"></div>
+        <div id="setting-container" class="tooltip-container">
+            <div id="setting-icon" class="buttons tt-right"></div><span id="main_settings_tooltip"
+                data-l10n-id="main_settings_tooltip"></span>
+        </div>
+        <div id="blacklist-container" class="tooltip-container">
+            <div id="add-to-blacklist-icon" class="buttons tt-left"></div><span id="main_add_blacklist_tooltip"
+                data-l10n-id="main_add_blacklist_tooltip"></span>
+        </div>
+        <div id="edit-container" class="tooltip-container">
+            <div id="edit-icon" class="buttons tt-right hidden"></div><span id="main_edit_tooltip"
+                data-l10n-id="main_edit_tooltip"></span>
+        </div>
+        <div id="back-container" class="tooltip-container">
+            <div id="back-icon" class="buttons tt-right hidden"></div></span>
+        </div>
+        <div id="top-description-container">
+            <div id="top-description"></div>
+        </div>
+        <ul id="top-icons" class="hidden">
+            <li class="top-icon seed-icon hidden"></li>
+            <li class="top-icon add-icon hidden"></li>
+        </ul>
+        <div id="treeball-container">
+            <div id="treeball" class="tree-cursor">
+                <div id="seed" class="floating_seed tree-cursor"></div>
+                <div id="tree" class="hidden tree-cursor"></div>
+                <div id="locker" class="hidden"></div>
+                <div id="plant-board"></div>
+                <div id="plant-board-text" data-l10n-id="main_plant_board_text"></div>
+            </div>
+            <div id="treeball-left-arrow" class="buttons treeball-arrows"></div>
+            <div id="treeball-right-arrow" class="buttons treeball-arrows"></div>
+        </div>
+        <div id="timer-container">
+            <div id="timer"> 30:00 </div>
+            <div id="timer-left-arrow" class="buttons timer-arrows"></div>
+            <div id="timer-right-arrow" class="buttons timer-arrows"></div>
+        </div>
+        <ul id="share-icons" class="hidden">
+            <li class="share-icon buttons" id="editBtn"></li>
+            <li class="share-icon buttons" id="twitterBtn"></li>
+            <li class="share-icon buttons" id="fbBtn"></li>
+        </ul>
+        <div id="finish-mask" class="hidden"></div>
+        <div id="finish-popup" class="hidden">
+            <div id="finish-message-for-guest-container">
+                <div id="finish-message-for-guest"><span id="finish-message-for-guest-text-pre"
+                        data-l10n-id="main_grown_popup_guest_info_pre"></span>&nbsp;
+                    <a href="http://www.forestapp.cc" target="_blank" id="finish-message-for-guest-link"
+                        data-l10n-id="main_grown_popup_guest_info_link"></a>&nbsp;<span
+                        id="finish-message-for-guest-text-post"
+                        data-l10n-id="main_grown_popup_guest_info_post"></span><img class="coin-icon-guest"
+                        src="images/main/coin.png" alt="" /></div>
+            </div>
+            <div id="finish-message-for-user-container">
+                <div id="finish-message-for-user" data-l10n-id="main_grown_popup_user_reward_pre"></div>
+                <div id="reward-for-user"><img class="coin-icon-reward" src="images/main/coin.png" alt="" /><span
+                        id="coins-for-user"></span></div>
+            </div>
+            <div id="do-not-show-finish-message-container">
+                <input id="do-not-show-finish-message" type="checkbox" value="donotshow">
+                <label for="do-not-show-finish-message" id="do-not-show-finish-message-text"
+                    data-l10n-id="main_grown_popup_guest_do_not_show_again"></label>
+            </div>
+            <div id="confirm-btn" class="buttons" data-l10n-id="main_confirm_btn">OK</div>
+        </div>
+        <div id="edit-mask" class="hidden"></div>
+        <div id="edit-popup" class="hidden edit-popup-shrink">
+            <form id="edit-form">
+                <select id="edit-tag">
+                    <option value="old">Paa</option>
+                </select>
+                <textarea id="edit-note" rows="6" cols="24"></textarea>
+            </form>
+            <div id="edit-cancel" class="buttons" data-l10n-id="main_edit_popup_cancel">取消</div>
+            <div id="edit-btn" class="buttons" data-l10n-id="main_edit_popup_btn">確定</div>
+        </div>
+    </div>
+</body>
+
+</html>

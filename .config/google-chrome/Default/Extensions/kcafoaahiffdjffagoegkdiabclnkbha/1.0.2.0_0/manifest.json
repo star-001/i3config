@@ -1,0 +1,31 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "img/icon19.png",
+         "38": "img/icon38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Base64 Encode & Decode, hex to text"
+   },
+   "content_scripts": [ {
+      "js": [ "js/content.min.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Quickly Encode & Decode Base64 strings and convert text to hex and hex to text",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4tS9gA7cPCD5IkzlQvq87cB1fAteA0PJBzm1qxdUee8vLoY7EYuo78cEnUUdryUUXLvBmwxI+zcywTICmLqvJy+Pxs0uesSIdOTRTZXA2zbxByMvUtr+oMc0PT0LpnF/V9P+CVyZ6HuWjtYIxlPuzLQwLhisnQ2hMLYVWIv84UwIDAQAB",
+   "manifest_version": 2,
+   "name": "Base64 Encode and Decode",
+   "offline_enabled": true,
+   "permissions": [ "contextMenus", "tabs", "http://*/", "https://*/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.2.0"
+}

@@ -1,0 +1,45 @@
+{
+   "check_detail": {
+      "message": "View detail"
+   },
+   "check_today_tasks": {
+      "message": "Check Today's Tasks"
+   },
+   "daily_alert_title": {
+      "message": "Today: $todayTasksCount$ tasks, $overDueTasksCount$ overdue",
+      "placeholders": {
+         "overDueTasksCount": {
+            "content": "$2",
+            "example": "1"
+         },
+         "todayTasksCount": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "description": {
+      "message": "Your wonderful to-do & task list to make all things done and get life well organized."
+   },
+   "ext_homepage_url": {
+      "message": "https://ticktick.com"
+   },
+   "ext_name_tt": {
+      "message": "TickTick - Todo & Task List"
+   },
+   "language": {
+      "message": "en"
+   },
+   "list_all": {
+      "message": "All"
+   },
+   "mark_complete": {
+      "message": "Mark complete"
+   },
+   "theme": {
+      "message": "Life can be different"
+   },
+   "title_tt": {
+      "message": "TickTick"
+   }
+}

@@ -1,0 +1,9 @@
+2019/08/04-18:32:32.838 e2d Reusing MANIFEST /home/fan/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/08/04-18:32:32.838 e2d Recovering log #137
+2019/08/04-18:32:32.838 e2d Reusing old log /home/fan/.config/google-chrome/Default/Sync Data/LevelDB/000137.log 
+2019/08/04-20:03:32.566 2909 Level-0 table #141: started
+2019/08/04-20:03:32.768 2909 Level-0 table #141: 141836 bytes OK
+2019/08/04-20:03:32.844 2909 Delete type=0 #137
+2019/08/04-21:48:20.628 2909 Level-0 table #143: started
+2019/08/04-21:48:20.789 2909 Level-0 table #143: 135350 bytes OK
+2019/08/04-21:48:20.863 2909 Delete type=0 #140

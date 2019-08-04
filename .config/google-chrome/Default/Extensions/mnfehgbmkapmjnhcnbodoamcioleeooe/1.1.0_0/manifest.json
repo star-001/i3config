@@ -1,0 +1,24 @@
+{
+   "app": {
+      "launch": {
+         "container": "tab",
+         "web_url": "https://devdocs.io/"
+      },
+      "urls": [ "https://devdocs.io/" ]
+   },
+   "author": "Thibaut Courouble",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon_128.png",
+      "512": "icon_512.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCUw9CFcHgRReqiAYb28QSCBQtIpcEeFMIt/X46gR6eOKKNl2J5hK4r9su1KFN+fmm+mJmPnXQgFYOdauVc4bJFO/gK15666T8d3gV+qw+29bgxAZx0IUL86GadGwaoVh6qgss3XlXDbxu1S/jTcVrcdmjm/W8Ic9m5GDSXPLb8fwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "offline_enabled": true,
+   "permissions": [ "unlimitedStorage", "clipboardWrite" ],
+   "short_name": "__MSG_appShortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.0"
+}

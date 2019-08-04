@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/fan/Documents'
+let g:netrw_dirhist_2='/home/fan'
+let g:netrw_dirhist_3='/home/fan/Wallpapers'
+let g:netrw_dirhist_4='/home/fan'
+let g:netrw_dirhist_5='/home/fan/.leetcode'
+let g:netrw_dirhist_6='/home/fan'
+let g:netrw_dirhist_7='/home/fan/Downloads'

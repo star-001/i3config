@@ -1,0 +1,730 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+/* line 10, ../sass/screen.scss */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+/* line 19, ../sass/screen.scss */
+
+body {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+}
+
+
+/* line 23, ../sass/screen.scss */
+
+#main-view {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 290px;
+    height: 290px;
+    background-color: #51A387;
+    border-radius: 3px;
+}
+
+
+/* main view */
+
+
+/* line 34, ../sass/screen.scss */
+
+#setting-icon {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/main/settings_btn.png);
+    background-size: contain;
+}
+
+#edit-icon {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/settings/edit_note_btn.png);
+    background-size: contain;
+}
+
+#back-icon {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/main/back_btn2.png);
+    background-size: contain;
+}
+
+
+/* line 44, ../sass/screen.scss */
+
+#setting-mask {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 25px;
+    height: 25px;
+    z-index: 999;
+}
+
+
+/* line 53, ../sass/screen.scss */
+
+#add-to-blacklist-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/main/addBlackList_white.png);
+    background-size: contain;
+    transition: transform 0.2s;
+}
+
+
+/* line 64, ../sass/screen.scss */
+
+.convergeToPoint {
+    transform: scale(0);
+}
+
+
+/* line 69, ../sass/screen.scss */
+
+.checked {
+    background-image: url(../images/main/check-mark.png) !important;
+}
+
+
+/* line 73, ../sass/screen.scss */
+
+#top-description-container {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 220px;
+    height: 70px;
+    display: table;
+}
+
+#top-description {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+}
+
+.highlight-top-description {
+    font-style: normal !important;
+    font-weight: bold;
+    animation-name: shaking;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes shaking {
+    0% {
+        top: 40px;
+    }
+    8% {
+        top: 35px;
+    }
+    16% {
+        top: 40px;
+    }
+    24% {
+        top: 45px;
+    }
+    32% {
+        top: 40px;
+    }
+    40% {
+        top: 37px;
+    }
+    48% {
+        top: 40px;
+    }
+    56% {
+        top: 43px;
+    }
+    64% {
+        top: 40px;
+    }
+    72% {
+        top: 39px;
+    }
+    80% {
+        top: 40px;
+    }
+    88% {
+        top: 41px;
+    }
+    100% {
+        top: 40px;
+    }
+}
+
+
+/* line 84, ../sass/screen.scss */
+
+#top-icons {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 200px;
+}
+
+
+/* line 93, ../sass/screen.scss */
+
+.top-icon {
+    width: 40px;
+    height: 40px;
+    margin: auto 5px;
+    display: inline-block;
+}
+
+
+/* line 100, ../sass/screen.scss */
+
+.seed-icon {
+    background-image: url(../images/main/small_tree_ball_pending.svg);
+    background-size: contain;
+}
+
+
+/* line 105, ../sass/screen.scss */
+
+.add-icon {
+    background-image: url(../images/main/add_tree_btn.svg);
+    background-size: contain;
+}
+
+
+/* line 110, ../sass/screen.scss */
+
+#treeball-container {
+    position: absolute;
+    top: 87px;
+    left: 15px;
+    width: 260px;
+    height: 120px;
+}
+
+#treeball-container:hover .treeball-arrows {
+    opacity: 0.7;
+}
+
+#treeball {
+    position: absolute;
+    left: 70px;
+    width: 120px;
+    height: 120px;
+    background-image: url(../images/main/planting_circle.svg);
+    background-size: contain;
+}
+
+.treeball-arrows {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 40px;
+    background-size: contain;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+#treeball-left-arrow {
+    left: 25px;
+    background-image: url(../images/main/prev_btn.png);
+}
+
+#treeball-right-arrow {
+    right: 25px;
+    background-image: url(../images/main/next_btn.png);
+}
+
+
+/* line 121, ../sass/screen.scss */
+
+#seed {
+    position: absolute;
+    top: 23px;
+    left: 52px;
+    width: 17px;
+    height: 22px;
+    background-image: url(../images/main/default_seed.png);
+    background-size: contain;
+    display: none;
+}
+
+
+/* line 133, ../sass/screen.scss */
+
+#plant-board-text {
+    position: absolute;
+    top: 31px;
+    left: 30px;
+    width: 61px;
+    height: 18px;
+    line-height: 16px;
+    font-size: 16px;
+    color: #442a00;
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* line 147, ../sass/screen.scss */
+
+#plant-board {
+    position: absolute;
+    top: 23px;
+    left: 30px;
+    width: 61px;
+    height: 54px;
+    background-image: url(../images/main/plant_board.png);
+    background-size: contain;
+    cursor: pointer;
+    display: none;
+}
+
+#locker {
+    position: absolute;
+    top: 33px;
+    left: 48px;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/main/locker.png);
+    background-size: contain;
+    cursor: pointer;
+}
+
+
+/* line 132, ../sass/screen.scss */
+
+.floating_seed {
+    animation-name: floating;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% {
+        top: 23px;
+    }
+    50% {
+        top: 33px;
+    }
+    100% {
+        top: 23px;
+    }
+}
+
+
+/* line 145, ../sass/screen.scss */
+
+.planted {
+    top: 63px !important;
+    transition: top 0.5s ease-in;
+}
+
+
+/* line 150, ../sass/screen.scss */
+
+#tree {
+    position: absolute;
+    top: 12px;
+    left: 25px;
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/trees/tree_1.svg);
+    background-size: contain;
+}
+
+.shadowed-tree {
+    -webkit-filter: brightness(40%);
+    filter: brightness(40%);
+}
+
+
+/* line 162, ../sass/screen.scss */
+
+#share-icons {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    width: 290px;
+}
+
+
+/* line 171, ../sass/screen.scss */
+
+.share-icon {
+    width: 45px;
+    height: 45px;
+    margin: auto 10px;
+    display: inline-block;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+
+/* line 180, ../sass/screen.scss */
+
+#editBtn {
+    background-image: url(../images/main/edit_btn.png);
+}
+
+
+/* line 183, ../sass/screen.scss */
+
+#twitterBtn {
+    background-image: url(../images/main/twitter_btn.svg);
+}
+
+
+/* line 186, ../sass/screen.scss */
+
+#fbBtn {
+    background-image: url(../images/main/fb_btn.svg);
+}
+
+
+/* line 190, ../sass/screen.scss */
+
+#timer-container {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: 260px;
+    height: 60px;
+}
+
+#timer-container:hover .timer-arrows {
+    opacity: 0.7;
+}
+
+#timer {
+    position: absolute;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+    font-size: 50px;
+    color: white;
+}
+
+.timer-arrows {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 4px;
+    background-size: contain;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+#timer-left-arrow {
+    background-image: url(../images/main/prev_btn.png);
+    left: 15px;
+}
+
+#timer-right-arrow {
+    background-image: url(../images/main/next_btn.png);
+    right: 15px;
+}
+
+.show-briefly {
+    opacity: 0.7;
+}
+
+#finish-popup {
+    position: absolute;
+    margin: 0 auto;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+    width: 180px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: black;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.finish-popup-for-user-width {
+    width: 150px !important;
+}
+
+.finish-popup-shrink {
+    transform: scale(0);
+}
+
+#finish-message-for-guest-container {
+    position: absolute;
+    display: table;
+    margin: 0 auto;
+    top: 10px;
+    left: 0px;
+    right: 0px;
+    width: 90%;
+    height: 60px;
+}
+
+#finish-message-for-guest {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+    color: black;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+a#finish-message-for-guest-link {
+    color: black;
+}
+
+#finish-message-for-user-container {
+    position: absolute;
+    display: table;
+    margin: 0 auto;
+    top: 15px;
+    left: 0px;
+    right: 0px;
+    width: 90%;
+    height: 75px;
+}
+
+#finish-message-for-user {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#reward-for-user {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#coins-for-user {
+    vertical-align: middle;
+}
+
+.coin-icon-reward {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+.coin-icon-guest {
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+#do-not-show-finish-message-container {
+    position: absolute;
+    top: 75px;
+    left: 0px;
+    right: 0px;
+}
+
+#confirm-btn {
+    position: absolute;
+    bottom: 15px;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 50px/50px;
+    text-align: center;
+    line-height: 15px;
+    height: 15px;
+    width: 50px;
+    font-size: 15px;
+    padding: 5px;
+    left: calc( 50% - 30px);
+    /*
+    color: white;
+    background-color: #8CC914;
+    border-bottom: 3px solid #649503;*/
+    color: rgba(255, 255, 255, .9);
+    background-color: rgba(77, 164, 136, 1);
+    border: 2px solid rgba(77, 164, 136, 1);
+}
+
+#finish-mask,
+#edit-mask {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    transition: opacity 0.3s;
+    opacity: 0;
+}
+
+#finish-message-for-guest-link {
+    outline: none !important;
+}
+
+.finish-masked,
+.edit-masked {
+    opacity: 0.2 !important;
+}
+
+.tree-cursor {
+    cursor: pointer;
+}
+
+#edit-popup {
+    position: absolute;
+    margin: 0 auto;
+    top: 40px;
+    left: 0px;
+    right: 0px;
+    width: 180px;
+    height: 180px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: black;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.edit-popup-shrink {
+    transform: scale(0);
+}
+
+#edit-btn,
+#edit-cancel {
+    position: absolute;
+    bottom: 15px;
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    border-radius: 50px/50px;
+    text-align: center;
+    line-height: 15px;
+    height: 15px;
+    width: 50px;
+    font-size: 15px;
+    padding: 5px;
+    /*
+    background-color: #8CC914;
+    border-bottom: 3px solid #649503;*/
+}
+
+#edit-btn {
+    right: 30px;
+    color: rgba(255, 255, 255, .9);
+    background-color: rgba(77, 164, 136, 1);
+    border: 2px solid rgba(77, 164, 136, 1);
+    /*
+    background-color: #8CC914;
+    border-bottom: 3px solid #649503;*/
+}
+
+#edit-cancel {
+    left: 30px;
+    color: rgba(77, 164, 136, 1);
+    background-color: transparent;
+    border: 2px solid rgba(77, 164, 136, 1);
+    /*
+    background-color: #BBBBBB;
+    border-bottom: 3px solid #979797;*/
+}
+
+#edit-tag {
+    background-image: url(../images/settings/dropdownarrow2.png);
+    background-repeat: no-repeat;
+    background-position: 120px;
+    background-size: 12px;
+    padding: 1px 26px 1px 10px;
+    text-align: center;
+    width: 140px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0px;
+    text-align-last: center;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    left: 7px;
+    bottom: 5px;
+}
+
+#edit-note {
+    margin-top: 10px;
+    width: 159px;
+    height: 102px;
+    border-radius: 10px/10px;
+    font-size: 12px;
+    border: 2px solid rgba(77, 164, 136, 1);
+    padding: 5px;
+    outline: none;
+    resize: none;
+    cursor: pointer;
+}

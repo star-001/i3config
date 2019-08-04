@@ -1,0 +1,1 @@
+define(function(require,exports){exports.Model=Backbone.Model.extend({defaults:{id:"",name:"",listType:"",sortType:"",taskType:""},isShared:function(){return this.get("userCount")>1?!0:!1}})});

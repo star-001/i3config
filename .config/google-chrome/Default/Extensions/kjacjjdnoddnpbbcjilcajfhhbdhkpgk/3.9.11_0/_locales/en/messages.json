@@ -1,0 +1,317 @@
+{
+   "appDesc": {
+      "message": "Stay focused in a pleasant way."
+   },
+   "appName": {
+      "message": "Forest: stay focused, be present"
+   },
+   "main_add_blacklist_tooltip": {
+      "message": "Add current website to Blacklist"
+   },
+   "main_add_whitelist_tooltip": {
+      "message": "Add current website to Whitelist"
+   },
+   "main_edit_popup_btn": {
+      "message": "Save"
+   },
+   "main_edit_popup_cancel": {
+      "message": "Cancel"
+   },
+   "main_edit_tooltip": {
+      "message": "Note"
+   },
+   "main_grown_popup_guest_do_not_show_again": {
+      "message": "Do not show this again."
+   },
+   "main_grown_popup_guest_info_link": {
+      "message": "mobile app"
+   },
+   "main_grown_popup_guest_info_post": {
+      "message": "to earn"
+   },
+   "main_grown_popup_guest_info_pre": {
+      "message": "Register a Forest account with our"
+   },
+   "main_grown_popup_user_reward_pre": {
+      "message": "You've got"
+   },
+   "main_message_growing_text_0": {
+      "message": "Leave me alone!"
+   },
+   "main_message_growing_text_1": {
+      "message": "Stop surfing the web!"
+   },
+   "main_message_growing_text_10": {
+      "message": "Keep up the good work!"
+   },
+   "main_message_growing_text_11": {
+      "message": "You can do it!"
+   },
+   "main_message_growing_text_12": {
+      "message": "Don't give up!"
+   },
+   "main_message_growing_text_2": {
+      "message": "Go back to your work!"
+   },
+   "main_message_growing_text_3": {
+      "message": "Don't look at me!"
+   },
+   "main_message_growing_text_4": {
+      "message": "Stay focused!"
+   },
+   "main_message_growing_text_5": {
+      "message": "Hang in there!"
+   },
+   "main_message_growing_text_6": {
+      "message": "Don't be distracted!"
+   },
+   "main_message_growing_text_7": {
+      "message": "Plant a tree and get your things done."
+   },
+   "main_message_growing_text_8": {
+      "message": "What you plant now, you will harvest later."
+   },
+   "main_message_growing_text_9": {
+      "message": "You are almost there!"
+   },
+   "main_plant_board_text": {
+      "message": "Start"
+   },
+   "main_planting_note_chrome": {
+      "message": "Planted in my chrome"
+   },
+   "main_planting_note_firefox": {
+      "message": "Planted in my firefox"
+   },
+   "main_planting_note_safari": {
+      "message": "Planted in my safari"
+   },
+   "main_settings_tooltip": {
+      "message": "Settings"
+   },
+   "main_share_on_failed": {
+      "message": "Plant a tree and stay focused with Forest! #forestapp"
+   },
+   "main_share_on_success": {
+      "message": "Plant a tree and stay focused with Forest! #forestapp"
+   },
+   "main_top_description_failed": {
+      "message": "Oops! You can do better next time"
+   },
+   "main_top_description_grown": {
+      "message": "Congrats!"
+   },
+   "main_top_description_locked": {
+      "message": "Unlock this tree in our mobile app."
+   },
+   "main_top_description_ready": {
+      "message": "Click the tree to start planting!"
+   },
+   "main_top_description_reload": {
+      "message": "Please right click the panel to reload."
+   },
+   "notification_text_on_fail": {
+      "message": "killed your tree."
+   },
+   "notification_text_on_giveup": {
+      "message": "You killed your tree."
+   },
+   "notification_text_on_success": {
+      "message": "You have grown a healthy tree."
+   },
+   "notification_text_upload_failed": {
+      "message": "Your tree cannot be uploaded to the server. Please try again later!"
+   },
+   "notification_title_on_fail": {
+      "message": "Oops!"
+   },
+   "notification_title_on_giveup": {
+      "message": "Oops!"
+   },
+   "notification_title_on_success": {
+      "message": "Congratulations!"
+   },
+   "notification_title_upload_failed": {
+      "message": "Upload failed."
+   },
+   "overlay_giveup": {
+      "message": "Give Up"
+   },
+   "overlay_popup_cancel": {
+      "message": "No"
+   },
+   "overlay_popup_confirm": {
+      "message": "Yes"
+   },
+   "overlay_popup_message": {
+      "message": "This will kill your cute, little tree."
+   },
+   "overlay_popup_title": {
+      "message": "Are You Sure to Give Up?"
+   },
+   "overlay_tree_is_dead": {
+      "message": "Your tree is dead."
+   },
+   "overlay_tree_still_growing": {
+      "message": "Your tree is still growing..."
+   },
+   "plant_tag_0": {
+      "message": "Unset"
+   },
+   "plant_tag_1": {
+      "message": "Work"
+   },
+   "plant_tag_2": {
+      "message": "Study"
+   },
+   "plant_tag_3": {
+      "message": "Social"
+   },
+   "plant_tag_4": {
+      "message": "Rest"
+   },
+   "plant_tag_5": {
+      "message": "Entertainment"
+   },
+   "plant_tag_6": {
+      "message": "Other"
+   },
+   "plant_tag_7": {
+      "message": "Sport"
+   },
+   "settings_blacklist_description": {
+      "message": "You cannot visit the following websites during a planting session"
+   },
+   "settings_blacklist_title": {
+      "message": "Blacklist"
+   },
+   "settings_edit_btn": {
+      "message": "Save"
+   },
+   "settings_edit_cancel": {
+      "message": "Cancel"
+   },
+   "settings_login_btn": {
+      "message": "Log in"
+   },
+   "settings_login_cancel": {
+      "message": "Cancel"
+   },
+   "settings_login_description": {
+      "message": "Log in to sync and view your forest on your phone."
+   },
+   "settings_login_email": {
+      "message": "Email"
+   },
+   "settings_login_failed": {
+      "message": "Log in Failed. The email or password you entered is incorrect..."
+   },
+   "settings_login_failed_error_code": {
+      "message": "Log in Failed. Error code: "
+   },
+   "settings_login_password": {
+      "message": "Password"
+   },
+   "settings_login_portal": {
+      "message": "Log in"
+   },
+   "settings_login_title": {
+      "message": "Log in your Forest account"
+   },
+   "settings_newblackbox_placeholder": {
+      "message": "Please enter the URL of the website here"
+   },
+   "settings_no_account1": {
+      "message": "Don't have an account yet? Please sign up in our"
+   },
+   "settings_no_account2": {
+      "message": "app (in-app purchase required)."
+   },
+   "settings_no_account_androidapp": {
+      "message": "Android"
+   },
+   "settings_no_account_iosapp": {
+      "message": "iOS app"
+   },
+   "settings_no_account_or": {
+      "message": "or"
+   },
+   "settings_no_sync_btn": {
+      "message": "Log in to Sync"
+   },
+   "settings_only_browser": {
+      "message": "(Only the trees planted in this browser are listed here)"
+   },
+   "settings_os_android": {
+      "message": "Android"
+   },
+   "settings_os_iphone": {
+      "message": "iPhone"
+   },
+   "settings_os_windows": {
+      "message": "Windows Phone"
+   },
+   "settings_other_apps_description": {
+      "message": "Grab Forest app and view your history forest, statistics and more!"
+   },
+   "settings_other_apps_title": {
+      "message": "More ways to use Forest"
+   },
+   "settings_status_0": {
+      "message": "Sync failed, please check your network connection."
+   },
+   "settings_status_200": {
+      "message": "Sync succeeded."
+   },
+   "settings_status_403": {
+      "message": "Your session has expired. Please log in again."
+   },
+   "settings_status_fail": {
+      "message": "Sync failed."
+   },
+   "settings_status_waitforsync": {
+      "message": "Pending..."
+   },
+   "settings_sync_btn": {
+      "message": "Click to Sync"
+   },
+   "settings_sync_completed": {
+      "message": "Sync Completed"
+   },
+   "settings_sync_tree_species_manually": {
+      "message": "sync"
+   },
+   "settings_syncing_tree_species_manually": {
+      "message": "Syncing"
+   },
+   "settings_synclist_limit": {
+      "message": "These are your 100 most recently planted trees. Please use the phone app to see your full planting history."
+   },
+   "settings_synclist_no_tree": {
+      "message": "You haven't planted any trees yet."
+   },
+   "settings_tab_logout": {
+      "message": "Log out"
+   },
+   "settings_tab_settings": {
+      "message": "Settings"
+   },
+   "settings_tab_synclist": {
+      "message": "History"
+   },
+   "settings_title": {
+      "message": "Forest: stay focused, be present"
+   },
+   "settings_today": {
+      "message": "Today"
+   },
+   "settings_whitelist_description": {
+      "message": "You can only visit the following websites during a planting session"
+   },
+   "settings_whitelist_title": {
+      "message": "Whitelist"
+   },
+   "settings_yesterday": {
+      "message": "Yesterday"
+   }
+}

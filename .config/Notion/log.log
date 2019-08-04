@@ -1,0 +1,582 @@
+[2019-07-26 15:57:01.055] [info] Error reading /home/fan/.config/Notion/cookies.json Error: /home/fan/.config/Notion/cookies.json: ENOENT: no such file or directory, open '/home/fan/.config/Notion/cookies.json'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:166:20)
+    at Object.fs.readFileSync (fs.js:551:33)
+    at Object.fs.readFileSync (ELECTRON_ASAR.js:538:29)
+    at Object.readFileSync (/opt/notion-app/app.asar/node_modules/jsonfile/index.js:61:22)
+    at JsonStore.loadSync (/opt/src/desktop/main/JsonStore.ts:41:19)
+    at new JsonStore (/opt/src/desktop/main/JsonStore.ts:14:8)
+    at Object.<anonymous> (/opt/src/desktop/main/CookieStore.ts:11:25)
+    at Object.<anonymous> (/opt/notion-app/app.asar/main/CookieStore.js:134:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+
+[2019-07-26 15:57:01.177] [info] Error reading /home/fan/.config/Notion/assets.json Error: ENOENT: no such file or directory, open '/home/fan/.config/Notion/assets.json'
+
+[2019-07-26 15:57:01.178] [info] Checking for update
+[2019-07-26 15:57:01.181] [info] Error reading /home/fan/.config/Notion/headers.json Error: ENOENT: no such file or directory, open '/home/fan/.config/Notion/headers.json'
+
+[2019-07-26 15:57:01.254] [info] Error reading /home/fan/.config/Notion/assets.json Error: ENOENT: no such file or directory, open '/home/fan/.config/Notion/assets.json'
+
+[2019-07-26 15:57:01.264] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at notFoundError (ELECTRON_ASAR.js:108:19)
+    at fs.readFile (ELECTRON_ASAR.js:511:16)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:85:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:82:12)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:5:67)
+From previous event:
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:617:70
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:618:7)
+    at Lazy.AppUpdater.configOnDisk (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:222:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:505:52
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at AppImageUpdater.getUpdateInfoAndProvider (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:517:7)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:524:35
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.doCheckForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:550:7)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:439:29
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at AppImageUpdater._checkForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:445:7)
+    at AppImageUpdater.checkForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:357:35)
+    at /opt/src/desktop/main/autoUpdater.ts:159:23
+    at step (/opt/notion-app/app.asar/main/autoUpdater.js:32:23)
+    at Object.next (/opt/notion-app/app.asar/main/autoUpdater.js:13:53)
+    at /opt/notion-app/app.asar/main/autoUpdater.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/opt/notion-app/app.asar/main/autoUpdater.js:3:12)
+    at pollForElectronUpdates (/opt/notion-app/app.asar/main/autoUpdater.js:154:12)
+    at Object.<anonymous> (/opt/src/desktop/main/autoUpdater.ts:167:2)
+    at Object.<anonymous> (/opt/notion-app/app.asar/main/autoUpdater.js:184:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/opt/src/desktop/main/main.ts:29:1)
+[2019-07-26 15:57:01.265] [info] { level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: 
+   { Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at notFoundError (ELECTRON_ASAR.js:108:19)
+    at fs.readFile (ELECTRON_ASAR.js:511:16)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:85:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:82:12)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:5:67)
+From previous event:
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:617:70
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:618:7)
+    at Lazy.AppUpdater.configOnDisk (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:222:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:505:52
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at AppImageUpdater.getUpdateInfoAndProvider (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:517:7)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:524:35
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.doCheckForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:550:7)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:439:29
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at AppImageUpdater._checkForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:445:7)
+    at AppImageUpdater.checkForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:357:35)
+    at /opt/src/desktop/main/autoUpdater.ts:159:23
+    at step (/opt/notion-app/app.asar/main/autoUpdater.js:32:23)
+    at Object.next (/opt/notion-app/app.asar/main/autoUpdater.js:13:53)
+    at /opt/notion-app/app.asar/main/autoUpdater.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/opt/notion-app/app.asar/main/autoUpdater.js:3:12)
+    at pollForElectronUpdates (/opt/notion-app/app.asar/main/autoUpdater.js:154:12)
+    at Object.<anonymous> (/opt/src/desktop/main/autoUpdater.ts:167:2)
+    at Object.<anonymous> (/opt/notion-app/app.asar/main/autoUpdater.js:184:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/opt/src/desktop/main/main.ts:29:1)
+     cause: { Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at notFoundError (ELECTRON_ASAR.js:108:19)
+    at fs.readFile (ELECTRON_ASAR.js:511:16)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:85:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:82:12)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:5:67)
+    at tryCatcher (/opt/notion-app/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at ret (eval at makeNodePromisifiedEval (/opt/notion-app/app.asar/node_modules/bluebird/js/release/promisify.js:184:12), <anonymous>:15:23)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:617:70
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (/opt/notion-app/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (/opt/notion-app/app.asar/node_modules/bluebird/js/release/generators.js:97:49)
+    at /opt/notion-app/app.asar/node_modules/bluebird/js/release/generators.js:201:15
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:618:7)
+    at Lazy.AppUpdater.configOnDisk (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:222:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:505:52 code: 'ENOENT', errno: -2 },
+     isOperational: true,
+     code: 'ENOENT',
+     errno: -2 } }
+[2019-07-26 15:57:01.272] [info] Error reading /home/fan/.config/Notion/headers.json Error: ENOENT: no such file or directory, open '/home/fan/.config/Notion/headers.json'
+
+[2019-07-26 15:57:01.749] [info] Failed to load: { errorCode: -2,
+  errorDescription: 'ERR_FAILED',
+  isMainFrame: true,
+  isTrusted: false,
+  validatedURL: 'notion://www.notion.so/' }
+[2019-07-26 15:57:11.052] [info] Checking for app update
+[2019-07-26 15:57:20.789] [info] Error reading /home/fan/.config/Notion/cookies.json Error: /home/fan/.config/Notion/cookies.json: ENOENT: no such file or directory, open '/home/fan/.config/Notion/cookies.json'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:166:20)
+    at Object.fs.readFileSync (fs.js:551:33)
+    at Object.fs.readFileSync (ELECTRON_ASAR.js:538:29)
+    at Object.readFileSync (/opt/notion-app/app.asar/node_modules/jsonfile/index.js:61:22)
+    at JsonStore.loadSync (/opt/src/desktop/main/JsonStore.ts:41:19)
+    at new JsonStore (/opt/src/desktop/main/JsonStore.ts:14:8)
+    at Object.<anonymous> (/opt/src/desktop/main/CookieStore.ts:11:25)
+    at Object.<anonymous> (/opt/notion-app/app.asar/main/CookieStore.js:134:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+
+[2019-07-26 15:57:20.841] [info] Error reading /home/fan/.config/Notion/assets.json Error: ENOENT: no such file or directory, open '/home/fan/.config/Notion/assets.json'
+
+[2019-07-26 15:57:20.842] [info] Checking for update
+[2019-07-26 15:57:20.843] [info] Error reading /home/fan/.config/Notion/headers.json Error: ENOENT: no such file or directory, open '/home/fan/.config/Notion/headers.json'
+
+[2019-07-26 15:57:20.899] [info] Error reading /home/fan/.config/Notion/assets.json Error: ENOENT: no such file or directory, open '/home/fan/.config/Notion/assets.json'
+
+[2019-07-26 15:57:20.908] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at notFoundError (ELECTRON_ASAR.js:108:19)
+    at fs.readFile (ELECTRON_ASAR.js:511:16)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:85:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:82:12)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:5:67)
+From previous event:
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:617:70
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:618:7)
+    at Lazy.AppUpdater.configOnDisk (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:222:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:505:52
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at AppImageUpdater.getUpdateInfoAndProvider (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:517:7)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:524:35
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.doCheckForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:550:7)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:439:29
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at AppImageUpdater._checkForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:445:7)
+    at AppImageUpdater.checkForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:357:35)
+    at /opt/src/desktop/main/autoUpdater.ts:159:23
+    at step (/opt/notion-app/app.asar/main/autoUpdater.js:32:23)
+    at Object.next (/opt/notion-app/app.asar/main/autoUpdater.js:13:53)
+    at /opt/notion-app/app.asar/main/autoUpdater.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/opt/notion-app/app.asar/main/autoUpdater.js:3:12)
+    at pollForElectronUpdates (/opt/notion-app/app.asar/main/autoUpdater.js:154:12)
+    at Object.<anonymous> (/opt/src/desktop/main/autoUpdater.ts:167:2)
+    at Object.<anonymous> (/opt/notion-app/app.asar/main/autoUpdater.js:184:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/opt/src/desktop/main/main.ts:29:1)
+[2019-07-26 15:57:20.909] [info] { level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: 
+   { Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at notFoundError (ELECTRON_ASAR.js:108:19)
+    at fs.readFile (ELECTRON_ASAR.js:511:16)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:85:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:82:12)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:5:67)
+From previous event:
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:617:70
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:618:7)
+    at Lazy.AppUpdater.configOnDisk (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:222:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:505:52
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at AppImageUpdater.getUpdateInfoAndProvider (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:517:7)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:524:35
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.doCheckForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:550:7)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:439:29
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at AppImageUpdater._checkForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:445:7)
+    at AppImageUpdater.checkForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:357:35)
+    at /opt/src/desktop/main/autoUpdater.ts:159:23
+    at step (/opt/notion-app/app.asar/main/autoUpdater.js:32:23)
+    at Object.next (/opt/notion-app/app.asar/main/autoUpdater.js:13:53)
+    at /opt/notion-app/app.asar/main/autoUpdater.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/opt/notion-app/app.asar/main/autoUpdater.js:3:12)
+    at pollForElectronUpdates (/opt/notion-app/app.asar/main/autoUpdater.js:154:12)
+    at Object.<anonymous> (/opt/src/desktop/main/autoUpdater.ts:167:2)
+    at Object.<anonymous> (/opt/notion-app/app.asar/main/autoUpdater.js:184:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/opt/src/desktop/main/main.ts:29:1)
+     cause: { Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at notFoundError (ELECTRON_ASAR.js:108:19)
+    at fs.readFile (ELECTRON_ASAR.js:511:16)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:85:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:82:12)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:5:67)
+    at tryCatcher (/opt/notion-app/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at ret (eval at makeNodePromisifiedEval (/opt/notion-app/app.asar/node_modules/bluebird/js/release/promisify.js:184:12), <anonymous>:15:23)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:617:70
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (/opt/notion-app/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (/opt/notion-app/app.asar/node_modules/bluebird/js/release/generators.js:97:49)
+    at /opt/notion-app/app.asar/node_modules/bluebird/js/release/generators.js:201:15
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:618:7)
+    at Lazy.AppUpdater.configOnDisk (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:222:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:505:52 code: 'ENOENT', errno: -2 },
+     isOperational: true,
+     code: 'ENOENT',
+     errno: -2 } }
+[2019-07-26 15:57:20.916] [info] Error reading /home/fan/.config/Notion/headers.json Error: ENOENT: no such file or directory, open '/home/fan/.config/Notion/headers.json'
+
+[2019-07-26 15:57:21.218] [info] Failed to load: { errorCode: -2,
+  errorDescription: 'ERR_FAILED',
+  isMainFrame: true,
+  isTrusted: false,
+  validatedURL: 'notion://www.notion.so/' }
+[2019-07-26 15:57:30.789] [info] Checking for app update
+[2019-07-26 15:57:32.183] [info] App update available 21.2.27
+[2019-07-26 15:57:37.213] [info] App update download complete 21.2.27
+[2019-07-26 15:57:37.216] [info] Installing app update 21.2.27
+[2019-07-26 15:58:37.230] [info] Checking for app update
+[2019-08-01 12:24:42.986] [info] Checking for update
+[2019-08-01 12:24:43.050] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at notFoundError (ELECTRON_ASAR.js:108:19)
+    at fs.readFile (ELECTRON_ASAR.js:511:16)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:85:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:82:12)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:5:67)
+From previous event:
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:617:70
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:618:7)
+    at Lazy.AppUpdater.configOnDisk (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:222:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:505:52
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at AppImageUpdater.getUpdateInfoAndProvider (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:517:7)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:524:35
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.doCheckForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:550:7)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:439:29
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at AppImageUpdater._checkForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:445:7)
+    at AppImageUpdater.checkForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:357:35)
+    at /opt/src/desktop/main/autoUpdater.ts:159:23
+    at step (/opt/notion-app/app.asar/main/autoUpdater.js:32:23)
+    at Object.next (/opt/notion-app/app.asar/main/autoUpdater.js:13:53)
+    at /opt/notion-app/app.asar/main/autoUpdater.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/opt/notion-app/app.asar/main/autoUpdater.js:3:12)
+    at pollForElectronUpdates (/opt/notion-app/app.asar/main/autoUpdater.js:154:12)
+    at Object.<anonymous> (/opt/src/desktop/main/autoUpdater.ts:167:2)
+    at Object.<anonymous> (/opt/notion-app/app.asar/main/autoUpdater.js:184:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/opt/src/desktop/main/main.ts:29:1)
+[2019-08-01 12:24:43.050] [info] { level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: 
+   { Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at notFoundError (ELECTRON_ASAR.js:108:19)
+    at fs.readFile (ELECTRON_ASAR.js:511:16)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:85:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:82:12)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:5:67)
+From previous event:
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:617:70
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:618:7)
+    at Lazy.AppUpdater.configOnDisk (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:222:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:505:52
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at AppImageUpdater.getUpdateInfoAndProvider (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:517:7)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:524:35
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.doCheckForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:550:7)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:439:29
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at AppImageUpdater._checkForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:445:7)
+    at AppImageUpdater.checkForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:357:35)
+    at /opt/src/desktop/main/autoUpdater.ts:159:23
+    at step (/opt/notion-app/app.asar/main/autoUpdater.js:32:23)
+    at Object.next (/opt/notion-app/app.asar/main/autoUpdater.js:13:53)
+    at /opt/notion-app/app.asar/main/autoUpdater.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/opt/notion-app/app.asar/main/autoUpdater.js:3:12)
+    at pollForElectronUpdates (/opt/notion-app/app.asar/main/autoUpdater.js:154:12)
+    at Object.<anonymous> (/opt/src/desktop/main/autoUpdater.ts:167:2)
+    at Object.<anonymous> (/opt/notion-app/app.asar/main/autoUpdater.js:184:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/opt/src/desktop/main/main.ts:29:1)
+     cause: { Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at notFoundError (ELECTRON_ASAR.js:108:19)
+    at fs.readFile (ELECTRON_ASAR.js:511:16)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:85:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:82:12)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:5:67)
+    at tryCatcher (/opt/notion-app/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at ret (eval at makeNodePromisifiedEval (/opt/notion-app/app.asar/node_modules/bluebird/js/release/promisify.js:184:12), <anonymous>:15:23)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:617:70
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (/opt/notion-app/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (/opt/notion-app/app.asar/node_modules/bluebird/js/release/generators.js:97:49)
+    at /opt/notion-app/app.asar/node_modules/bluebird/js/release/generators.js:201:15
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:618:7)
+    at Lazy.AppUpdater.configOnDisk (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:222:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:505:52 code: 'ENOENT', errno: -2 },
+     isOperational: true,
+     code: 'ENOENT',
+     errno: -2 } }
+[2019-08-01 12:24:52.847] [info] Checking for app update
+[2019-08-01 12:24:58.946] [info] App update available 21.2.31
+[2019-08-01 12:25:09.207] [info] App update download complete 21.2.31
+[2019-08-01 12:25:09.208] [info] Installing app update 21.2.31
+[2019-08-01 12:25:09.219] [info] { level: 'warning',
+  from: 'assetCache',
+  type: 'slowDownload',
+  data: 
+   { timing: 
+      { total: 16372,
+        assetJson: 6099,
+        prepare: 212,
+        download: 10049,
+        cleanup: 12 } } }
+[2019-08-01 12:26:09.239] [info] Checking for app update
+[2019-08-01 12:26:09.887] [info] No app update available
+[2019-08-03 22:13:56.454] [info] Checking for update
+[2019-08-03 22:13:56.532] [error] Error: Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at notFoundError (ELECTRON_ASAR.js:108:19)
+    at fs.readFile (ELECTRON_ASAR.js:511:16)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:85:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:82:12)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:5:67)
+From previous event:
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:617:70
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:618:7)
+    at Lazy.AppUpdater.configOnDisk (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:222:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:505:52
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at AppImageUpdater.getUpdateInfoAndProvider (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:517:7)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:524:35
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.doCheckForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:550:7)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:439:29
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at AppImageUpdater._checkForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:445:7)
+    at AppImageUpdater.checkForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:357:35)
+    at /opt/src/desktop/main/autoUpdater.ts:159:23
+    at step (/opt/notion-app/app.asar/main/autoUpdater.js:32:23)
+    at Object.next (/opt/notion-app/app.asar/main/autoUpdater.js:13:53)
+    at /opt/notion-app/app.asar/main/autoUpdater.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/opt/notion-app/app.asar/main/autoUpdater.js:3:12)
+    at pollForElectronUpdates (/opt/notion-app/app.asar/main/autoUpdater.js:154:12)
+    at Object.<anonymous> (/opt/src/desktop/main/autoUpdater.ts:167:2)
+    at Object.<anonymous> (/opt/notion-app/app.asar/main/autoUpdater.js:184:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/opt/src/desktop/main/main.ts:29:1)
+[2019-08-03 22:13:56.532] [info] { level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: 
+   { Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at notFoundError (ELECTRON_ASAR.js:108:19)
+    at fs.readFile (ELECTRON_ASAR.js:511:16)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:85:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:82:12)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:5:67)
+From previous event:
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:617:70
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:618:7)
+    at Lazy.AppUpdater.configOnDisk (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:222:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:505:52
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at AppImageUpdater.getUpdateInfoAndProvider (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:517:7)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:524:35
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.doCheckForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:550:7)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:439:29
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+From previous event:
+    at AppImageUpdater._checkForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:445:7)
+    at AppImageUpdater.checkForUpdates (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:357:35)
+    at /opt/src/desktop/main/autoUpdater.ts:159:23
+    at step (/opt/notion-app/app.asar/main/autoUpdater.js:32:23)
+    at Object.next (/opt/notion-app/app.asar/main/autoUpdater.js:13:53)
+    at /opt/notion-app/app.asar/main/autoUpdater.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/opt/notion-app/app.asar/main/autoUpdater.js:3:12)
+    at pollForElectronUpdates (/opt/notion-app/app.asar/main/autoUpdater.js:154:12)
+    at Object.<anonymous> (/opt/src/desktop/main/autoUpdater.ts:167:2)
+    at Object.<anonymous> (/opt/notion-app/app.asar/main/autoUpdater.js:184:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/opt/src/desktop/main/main.ts:29:1)
+     cause: { Error: ENOENT, dev-app-update.yml not found in /opt/notion-app/app.asar
+    at notFoundError (ELECTRON_ASAR.js:108:19)
+    at fs.readFile (ELECTRON_ASAR.js:511:16)
+    at go$readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:85:14)
+    at readFile (/opt/notion-app/app.asar/node_modules/graceful-fs/graceful-fs.js:82:12)
+    at readFile (/opt/notion-app/app.asar/node_modules/universalify/index.js:5:67)
+    at tryCatcher (/opt/notion-app/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at ret (eval at makeNodePromisifiedEval (/opt/notion-app/app.asar/node_modules/bluebird/js/release/promisify.js:184:12), <anonymous>:15:23)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:617:70
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (/opt/notion-app/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (/opt/notion-app/app.asar/node_modules/bluebird/js/release/generators.js:97:49)
+    at /opt/notion-app/app.asar/node_modules/bluebird/js/release/generators.js:201:15
+    at AppImageUpdater.loadUpdateConfig (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:618:7)
+    at Lazy.AppUpdater.configOnDisk (/opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:222:58)
+    at Lazy.get value [as value] (/opt/notion-app/app.asar/node_modules/lazy-val/out/main.js:23:25)
+    at /opt/notion-app/app.asar/node_modules/electron-updater/out/AppUpdater.js:505:52 code: 'ENOENT', errno: -2 },
+     isOperational: true,
+     code: 'ENOENT',
+     errno: -2 } }
+[2019-08-03 22:14:06.192] [info] Checking for app update
+[2019-08-03 22:14:12.524] [info] App update available 21.2.34
+[2019-08-03 22:14:13.773] [info] App update download complete 21.2.34
+[2019-08-03 22:14:13.774] [info] Installing app update 21.2.34
+[2019-08-03 22:15:13.826] [info] Checking for app update
+[2019-08-03 22:15:22.153] [info] No app update available

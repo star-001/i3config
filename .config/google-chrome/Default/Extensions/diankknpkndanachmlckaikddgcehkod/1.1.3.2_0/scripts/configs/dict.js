@@ -1,0 +1,1 @@
+define(function(require,exports){exports.weekStr={JA:"Jan",TU:"Tue",WE:"Wed",TH:"Thu",FR:"Fri",SA:"Sat",SU:"Sun"},exports.format={atomTime:"YYYY-MM-DDTHH:mm:ss.SSSZZ"},exports.repeatFromType={dueDate:"0",completedTime:"1",defaultVal:"2"},exports.triggerUnit={2:"years",3:"months",4:"weeks",5:"days",7:"hours",8:"minutes"},exports.defaultRemindTime="09:00"});

@@ -1,0 +1,34 @@
+{
+   "author": "ForestApp Team",
+   "background": {
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/icon-512.png",
+      "default_popup": "panel.html"
+   },
+   "content_scripts": [ {
+      "css": [ "stylesheets/overlay.css" ],
+      "js": [ "js/overlay.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "homepage_url": "https://www.forestapp.cc",
+   "icons": {
+      "128": "icons/icon-512.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt7J2OJZBD/oHc8odVtv9laHcTEiE2teusz2WW8fZeWyIXrven+gGXnD2C5IQNmcga/6PeMF9z6Jb6DT00DBT5LshLB5DhmibzihnZ35r0bxA60pOxd1UzZ3g36Nu73CfN1Aq8skuoxXT0ll01rymJSr4KoBfgj58EfunzX8gcowGVgzpYWLVvrgMqWBKnbeG0OH3S62oFfaGqku+O1HQOxTV64kfk8TjoSVJhLScZqJcf97PnRVi2lRdNb/nS01FbbyV6TM+yvb9r1iAfawjPVeFflTrIlQjZwZfeQ975wr0l+oAyu7K50Afd9FTzYVZMJRyZMftL33LG1e7+7ZrswIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "options_ui": {
+      "chrome_style": true,
+      "open_in_tab": false,
+      "page": "settings.html"
+   },
+   "permissions": [ "activeTab", "storage", "notifications", "tabs", "https://*/*", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.9.11",
+   "web_accessible_resources": [ "images/*.png", "images/*.svg", "fonts/*.ttf" ]
+}

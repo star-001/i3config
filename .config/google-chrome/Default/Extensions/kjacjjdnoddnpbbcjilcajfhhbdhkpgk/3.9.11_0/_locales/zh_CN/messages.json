@@ -1,0 +1,317 @@
+{
+   "appDesc": {
+      "message": "保持专心也可以这么容易"
+   },
+   "appName": {
+      "message": "Forest：保持专注，用心生活"
+   },
+   "main_add_blacklist_tooltip": {
+      "message": "将目前的网页加入黑名单"
+   },
+   "main_add_whitelist_tooltip": {
+      "message": "将目前的网页加入白名单"
+   },
+   "main_edit_popup_btn": {
+      "message": "储存"
+   },
+   "main_edit_popup_cancel": {
+      "message": "取消"
+   },
+   "main_edit_tooltip": {
+      "message": "注记"
+   },
+   "main_grown_popup_guest_do_not_show_again": {
+      "message": "不要再显示这个"
+   },
+   "main_grown_popup_guest_info_link": {
+      "message": "手机 app 中"
+   },
+   "main_grown_popup_guest_info_post": {
+      "message": "注册，赚取额外的"
+   },
+   "main_grown_popup_guest_info_pre": {
+      "message": "在 Forest "
+   },
+   "main_grown_popup_user_reward_pre": {
+      "message": "你得到了"
+   },
+   "main_message_growing_text_0": {
+      "message": "现在就开始工作吧！"
+   },
+   "main_message_growing_text_1": {
+      "message": "不要再逛网页了！"
+   },
+   "main_message_growing_text_10": {
+      "message": "就在眼前，撑下去！"
+   },
+   "main_message_growing_text_11": {
+      "message": "继续保持，继续努力"
+   },
+   "main_message_growing_text_12": {
+      "message": "别放弃啊！"
+   },
+   "main_message_growing_text_2": {
+      "message": "赶快去做事"
+   },
+   "main_message_growing_text_3": {
+      "message": "不要一直看我，人家会害羞"
+   },
+   "main_message_growing_text_4": {
+      "message": "专注！专注！"
+   },
+   "main_message_growing_text_5": {
+      "message": "加油，您做得到的！"
+   },
+   "main_message_growing_text_6": {
+      "message": "赶快做事，认真生活。"
+   },
+   "main_message_growing_text_7": {
+      "message": "一分一秒，皆是您专注的时光。"
+   },
+   "main_message_growing_text_8": {
+      "message": "种一棵树，心无旁骛。"
+   },
+   "main_message_growing_text_9": {
+      "message": "加油，时间快到了！"
+   },
+   "main_plant_board_text": {
+      "message": "开始"
+   },
+   "main_planting_note_chrome": {
+      "message": "在 Chrome 中种的树"
+   },
+   "main_planting_note_firefox": {
+      "message": "在 Firefox 中种的树"
+   },
+   "main_planting_note_safari": {
+      "message": "在 Safari 中种的树"
+   },
+   "main_settings_tooltip": {
+      "message": "设定"
+   },
+   "main_share_on_failed": {
+      "message": "和我一起在 Forest 种棵树，不再分心逛网站！ #forestapp"
+   },
+   "main_share_on_success": {
+      "message": "和我一起在 Forest 种棵树，不再分心逛网站！ #forestapp"
+   },
+   "main_top_description_failed": {
+      "message": "失败了，下一次再努力！"
+   },
+   "main_top_description_grown": {
+      "message": "成功啦！"
+   },
+   "main_top_description_locked": {
+      "message": "你可以在手机 app 中解锁新树种"
+   },
+   "main_top_description_ready": {
+      "message": "点击树木图片开始种植"
+   },
+   "main_top_description_reload": {
+      "message": "请在面板点击右键以重新整理。"
+   },
+   "notification_text_on_fail": {
+      "message": "害你失败了。"
+   },
+   "notification_text_on_giveup": {
+      "message": "你亲手杀死了你的小树"
+   },
+   "notification_text_on_success": {
+      "message": "你成功种植了一棵健康的树。"
+   },
+   "notification_text_upload_failed": {
+      "message": "你的树在上传的过程中发生了错误。"
+   },
+   "notification_title_on_fail": {
+      "message": "失败..."
+   },
+   "notification_title_on_giveup": {
+      "message": "失败..."
+   },
+   "notification_title_on_success": {
+      "message": "成功啦！"
+   },
+   "notification_title_upload_failed": {
+      "message": "上传失败"
+   },
+   "overlay_giveup": {
+      "message": "放弃"
+   },
+   "overlay_popup_cancel": {
+      "message": "取消"
+   },
+   "overlay_popup_confirm": {
+      "message": "确定"
+   },
+   "overlay_popup_message": {
+      "message": "您充满活力、绿意盎然的树将会枯萎"
+   },
+   "overlay_popup_title": {
+      "message": "您确定要放弃吗？"
+   },
+   "overlay_tree_is_dead": {
+      "message": "您的树死了"
+   },
+   "overlay_tree_still_growing": {
+      "message": "您的树正在生长中..."
+   },
+   "plant_tag_0": {
+      "message": "未设定"
+   },
+   "plant_tag_1": {
+      "message": "工作"
+   },
+   "plant_tag_2": {
+      "message": "学习"
+   },
+   "plant_tag_3": {
+      "message": "社交"
+   },
+   "plant_tag_4": {
+      "message": "休息"
+   },
+   "plant_tag_5": {
+      "message": "娱乐"
+   },
+   "plant_tag_6": {
+      "message": "其他"
+   },
+   "plant_tag_7": {
+      "message": "运动"
+   },
+   "settings_blacklist_description": {
+      "message": "种植期间，不能造访以下网站"
+   },
+   "settings_blacklist_title": {
+      "message": "黑名单"
+   },
+   "settings_edit_btn": {
+      "message": "储存"
+   },
+   "settings_edit_cancel": {
+      "message": "取消"
+   },
+   "settings_login_btn": {
+      "message": "登录"
+   },
+   "settings_login_cancel": {
+      "message": "取消"
+   },
+   "settings_login_description": {
+      "message": "登录以同步浏览器种的树至手机 app "
+   },
+   "settings_login_email": {
+      "message": "邮箱"
+   },
+   "settings_login_failed": {
+      "message": "登录失败。您输入的邮箱或密码错误"
+   },
+   "settings_login_failed_error_code": {
+      "message": "登录失败。错误号码："
+   },
+   "settings_login_password": {
+      "message": "密码"
+   },
+   "settings_login_portal": {
+      "message": "登录"
+   },
+   "settings_login_title": {
+      "message": "登录您的 Forest 账号"
+   },
+   "settings_newblackbox_placeholder": {
+      "message": "在这里输入网址"
+   },
+   "settings_no_account1": {
+      "message": "还没有账号吗？你可以在 Forest 手机 app 中注册："
+   },
+   "settings_no_account2": {
+      "message": "（需要内付费解锁完整版）"
+   },
+   "settings_no_account_androidapp": {
+      "message": "安卓"
+   },
+   "settings_no_account_iosapp": {
+      "message": "iOS"
+   },
+   "settings_no_account_or": {
+      "message": "、"
+   },
+   "settings_no_sync_btn": {
+      "message": "登录以同步"
+   },
+   "settings_only_browser": {
+      "message": "（只有此浏览器的种树记录会出现在这里。）"
+   },
+   "settings_os_android": {
+      "message": "安卓"
+   },
+   "settings_os_iphone": {
+      "message": "iPhone"
+   },
+   "settings_os_windows": {
+      "message": "Windows Phone"
+   },
+   "settings_other_apps_description": {
+      "message": "下载 Forest app 以浏览历史记录、统计资讯、大森林以及更多的功能！"
+   },
+   "settings_other_apps_title": {
+      "message": "在更多地方使用 Forest"
+   },
+   "settings_status_0": {
+      "message": "传输错误，请检查您的网络"
+   },
+   "settings_status_200": {
+      "message": "同步成功"
+   },
+   "settings_status_403": {
+      "message": "验证错误，请重新登录"
+   },
+   "settings_status_fail": {
+      "message": "同步失败"
+   },
+   "settings_status_waitforsync": {
+      "message": "待同步"
+   },
+   "settings_sync_btn": {
+      "message": "ㄧ键同步"
+   },
+   "settings_sync_completed": {
+      "message": "同步完成"
+   },
+   "settings_sync_tree_species_manually": {
+      "message": "同步"
+   },
+   "settings_syncing_tree_species_manually": {
+      "message": "正在同步"
+   },
+   "settings_synclist_limit": {
+      "message": "\b这里只会显示最近 100 棵树的种植记录，更多记录请前往手机 app 中查看。"
+   },
+   "settings_synclist_no_tree": {
+      "message": "你还没有任何种树记录。"
+   },
+   "settings_tab_logout": {
+      "message": "登出"
+   },
+   "settings_tab_settings": {
+      "message": "设定"
+   },
+   "settings_tab_synclist": {
+      "message": "记录"
+   },
+   "settings_title": {
+      "message": "Forest：保持专注，用心生活"
+   },
+   "settings_today": {
+      "message": "今天"
+   },
+   "settings_whitelist_description": {
+      "message": "种植期间，只能造访以下网站"
+   },
+   "settings_whitelist_title": {
+      "message": "白名单"
+   },
+   "settings_yesterday": {
+      "message": "昨天"
+   }
+}
