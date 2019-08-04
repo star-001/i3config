@@ -1,0 +1,1 @@
+my personal manjaro setting
