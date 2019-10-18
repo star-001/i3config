@@ -1,0 +1,3 @@
+pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts intellij-idea-ultimate-edition intellij-idea-ultimate-edition-jre fcitx-sogoupinyin fcitx-im anki typora noto-fonts-emoji visual-studio-code-bin google-chrome-stable zsh --noconfirm
+pacman -U https://arch-archive.tuna.tsinghua.edu.cn/2019/04-29/community/os/x86_64/fcitx-qt4-4.2.9.6-1-x86_64.pkg.tar.xz
+pacman -S autorandr --noconfirm
