@@ -1,4 +1,6 @@
 #! /bin/sh
+mhwd -r pci $(mhwd -la|grep "bumblebee"|awk 'NR==1{print $1}')
+sudo mhwd -i pci $(mhwd -l | grep video-nvidia|awk 'NR==2{print $1}')
 rm /etc/X11/xorg.conf.d/90-mhwd.conf
 mv ./prime/optimus.conf /etc/X11/xorg.conf.d/
 rm /etc/modprobe.d/mhwd*
