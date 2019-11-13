@@ -1,0 +1,10 @@
+set surround
+map \f :action ReformatCode<CR>
+map \i :action OptimizeImports<CR>
+map \r :action RunClass<CR>
+map \nj :action NewClass<CR>
+map \nd :action NewDir<CR>
+map \b :action ToggleLineBreakpoint<CR>
+map \d :action Debug<CR>
+map \c "+y
+map \v "+gp
